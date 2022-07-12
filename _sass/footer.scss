@@ -1,0 +1,39 @@
+.footer-container {
+  background-color: #133667 !important;
+}
+
+.footer {
+  width: 80%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.footer-title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.footer-title a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.3rem;
+}
+
+.footer-title a:hover {
+  color: orange;
+}
+
+.footer .nav-logo {
+  margin: auto;
+}
+// need to get the logo to be centered correctly
+// .nav-logo {
+//   display: flex;
+//   align-items: right;
+//   justify-content: right;
+// }
