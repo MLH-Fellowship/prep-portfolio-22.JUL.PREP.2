@@ -13,3 +13,20 @@
 - name: Swift
   img: swift.jpg
   location: New York City, USA
+
+- name: Arpit Bhalla
+  username: arpitBhalla
+  location: New York City, USA
+  url: https://github.com/arpitbhalla
+  social:
+    twitter: arpit
+    github: arpit
+    linkedin: arpit
+  img: https://github.com/arpitbhalla.png
+
+- name: Akhilesh
+  username: AkhileshManda
+  location: New York City, USA
+  url: https://github.com/AkhileshManda
+  social:
+  img: https://github.com/AkhileshManda.png
