@@ -1,20 +1,38 @@
-<h2>Projects</h2>
-<div class="card-container">
+<section class="projects">
+  <h2>Projects</h2>
+
+  <div class="card-container">
     {% for item in site.data.projects %}
     {% if item.page-name %}
-    <a href="/projects/{{ item.page-name }}">
-    {% else %}
-    <a>
-    {% endif %}
-      <div class="card">
-        <div class="info">
+    <div class="card">
+      <img class="card-img-top" src="./assets/img/projects/p1.png" alt=''>
+      <div class="info">
+        <div class="content">
           <p class="title">{{ item.title }}</p>
-          <p class="authors">By: {{item.authors}}</p>
-          <p class="description"><b>Description</b> {{item.description}} </p>
-          <p class="dates">{{ item.date }}</p>
+          {% for author in item.authors %}
+          {% assign user = site.data.fellows | find: "username", {author} %}
+          <a class="d-inline-block" tabindex="0" data-toggle="tooltip" title="{{user.name}}" href="{{user.url}}">
+            <img class="avatar" src="{{user.img}}" />
+            <!-- <small class="authors">{{user.name}}</small> -->
+          </a>
+          {% endfor %}
+          <p class="desc">{{item.description}} </p>
+          <div class="tags">
+            {% for tag in item.tags %}
+            <span class="tag">{{tag}}</span>
+            {% endfor %}
+          </div>
+          <!-- <p class="dates">{{ item.date }}</p> -->
+          <a class="small btn btn btn-outline-primary  btn-sm" href="/projects/{{ item.page-name }}">
+            <small>
+              Learn More
+            </small>
+          </a>
         </div>
       </div>
-    </a>
+    </div>
+    {% endif %}
     {% endfor %}
   </div>
-  
+
+</section>
