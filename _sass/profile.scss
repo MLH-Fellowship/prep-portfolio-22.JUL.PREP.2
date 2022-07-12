@@ -1,9 +1,11 @@
 .profile {
-    background-color: #133667 !important;
     @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
     text-align: center;
     height: 320px;
     margin-bottom: 50px;
+    background-color: #133667; // fallback
+    background: url('https://media.giphy.com/media/1n75DUqo8mgfopD90Q/giphy-downsized-large.gif') center center no-repeat;
+    background-size: cover;
 
     img {
         border-radius: 50%;
