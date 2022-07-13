@@ -6,11 +6,17 @@
             </div>
         </a>
 
-        <ul class="nav-list">
+        <ul class="nav-list" id = "responsive">
             <li><a href="#MeetThePod">Meet the Pod!</a></li>
             <li><a href="#Projects">Projects</a></li>
             <li><a href="#Map">Map</a></li>
+            <a  class="icon" onclick="myFunction()">
+                <i class="fa fa-bars" id="bar"></i>
+              </a>
         </ul>
+       
+
+       
 
         
 
@@ -18,5 +24,22 @@
         
     </div>
 </header>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("responsive");
+      var y = document.getElementById("bar");
+      if (x.className === "nav-list") {
+        x.className += " responsive";
+      } else {
+        x.className = "nav-list";
+      }
+      if(y.className === "fa fa-bars") {
+        y.className = "fa fa-arrow-up";
+      }else{
+        y.className = "fa fa-bars";
+      }
+    }
+    </script>
 
 
