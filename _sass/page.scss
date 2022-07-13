@@ -185,12 +185,12 @@ hr {
   }
   
     tr, td{
-    padding: 10px 15px 10px 21px;
+    padding: 29px 15px 29px 21px;
     // margin: 0px 8px 0px 8px;
   }
   
   tr{
-    line-height: 1px !important;
+    line-height: 3px !important;
   }
 
   tr:nth-child(even){
@@ -203,7 +203,7 @@ hr {
   }
 
   th{
-    padding: 10px 5px 5px 18px;
+    padding: 33px 5px 29px 18px;
   }
 
   .score{
@@ -221,7 +221,7 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 50rem;
+    height: 83rem;
   }
 
   .leaderboard{
@@ -232,8 +232,8 @@ hr {
 
  .after_img{
     position: absolute;
-    top: 63%;
-    left: 67%;
+    top: 78%;
+    left: 69%;
     z-index: 2;
  }
 
