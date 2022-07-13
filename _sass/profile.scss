@@ -34,6 +34,7 @@
         font-family: "Poppins", serif;
         background: url('https://media.giphy.com/media/3o85xxpDp9J4Jlv62Q/giphy.gif') center center no-repeat;
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: clamp( 2rem, 5vw, 4rem);
         letter-spacing: 6px;
