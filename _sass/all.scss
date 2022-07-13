@@ -155,4 +155,126 @@ $avatar-size: 20px;
 }
 
 
+.pod{
 
+ 
+
+h3 {
+  font-size: larger;
+  color: rgb(66, 66, 66);
+}
+p {
+  color: rgb(136, 136, 136);
+}
+.container {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.container h1 {
+  position: absolute;
+  color: white;
+  font-size: 150px;
+  opacity: 0.2;
+}
+.card-wrapper {
+  position: relative;
+  height: 180px;
+  width: 300px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: 0.5s;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+.card-wrapper:hover {
+  height: 420px;
+  width: 350px;
+  transition: 0.5s;
+}
+.card-wrapper:hover .user-pic {
+  height: 250px;
+  width: 250px;
+  transition: 0.5s;
+}
+.user-pic {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: auto;
+  top: -75px;
+  width: 150px;
+  height: 150px;
+  background-color: #c850c0;
+  border-radius: 10px;
+  box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+  transition: 0.5s;
+}
+.user-pic img {
+  height: 100%;
+  display: block;
+  margin-left: -25%;
+}
+.name {
+  text-align: center;
+  position: relative;
+  top: 100px;
+  transition: 0.5s;
+}
+.card-wrapper:hover .name {
+  top: 200px;
+}
+.social-details {
+  position: relative;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.card-wrapper:hover .social-details {
+  opacity: 1;
+  position: relative;
+  top: 200px;
+}
+.card-btn {
+  position: relative;
+  top: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  padding: 0 50px;
+  opacity: 0;
+  transition: 0.1s;
+}
+.card-wrapper:hover .card-btn {
+  opacity: 1;
+  transition-delay: 0.3s;
+}
+.card-btn button {
+  width: 100px;
+  padding: 5px 10px;
+  font-size: medium;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(136, 136, 136);
+  color: rgb(136, 136, 136);
+  transition: 0.3s;
+}
+.card-btn button:hover {
+  color: white;
+  background-color: #c850c0;
+  transition: 0.3s;
+  border: 1px solid white;
+}
+
+}
