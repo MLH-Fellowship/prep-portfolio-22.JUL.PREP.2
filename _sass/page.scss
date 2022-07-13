@@ -156,6 +156,71 @@ hr {
     background-color: #000204;
 }
 
+.contain{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+    
+    
+  }
+  
+  /* @keyframes animateSectionBackground {
+    00%, 36% { background-image: url(assets\img\0_tVfyU9ekMrUkhkvb.jpg); }
+    37%, 63% { background-image: url(assets/img/612f90cfea72f6ee37f5472c_Learn-wallpaper-Main.jpg); }
+    64%, 99% { background-image: url(assets/img/Did-someone-say-new-workshop_-1200x520.png); }
+  } */
+  
+  table{
+    padding: 40px 50px 50px 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    // border-collapse: separate;
+    // border: 1px solid black;
+    // border-radius: 15px;
+    background-color: white;
+    width: 56%;
+    height: 450px;
+    box-shadow: 8px 8px 3px yellow;
+  }
+  
+    tr, td{
+    padding: 10px 15px 10px 21px;
+    // margin: 0px 8px 0px 8px;
+  }
+  
+  tr{
+    line-height: 1px !important;
+  }
 
+  tr:nth-child(even){
+    background-color: rgb(216, 216, 216);
+  }
+
+  td{
+    color: #022c67;
+    font-weight: 700;
+  }
+
+  th{
+    padding: 10px 5px 5px 18px;
+  }
+
+  .bgimg{
+    background-image: linear-gradient(50deg, rgba(4, 12, 119, 0.271),rgba(9, 28, 92, 0.348)),url("https://campusrec.unc.edu/wp-content/uploads/2020/11/Student-Staff-Celebration-2020-Horizontal-.png");
+    /* height: 100%;
+    width: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50rem;
+  }
+
+  .leaderboard{
+    padding-top: 68px;
+    color: white;
+    font-size: 30px;
+  }
 
 

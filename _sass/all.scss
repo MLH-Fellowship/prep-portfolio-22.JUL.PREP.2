@@ -4,6 +4,7 @@
 @import "profile";
 @import "page";
 
+
 .card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -150,3 +151,4 @@ $avatar-size: 20px;
   color: rgb(255, 255, 255);
   font-weight: 500;
 }
+
