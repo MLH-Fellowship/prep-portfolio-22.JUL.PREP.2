@@ -1,5 +1,4 @@
 .profile {
-    @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
     text-align: center;
     height: 320px;
     margin-bottom: 50px;
@@ -32,12 +31,12 @@
     }
 
     h1 {
-        font-family: 'Oswald';
+        font-family: "Poppins", serif;
         background: url('https://media.giphy.com/media/3o85xxpDp9J4Jlv62Q/giphy.gif') center center no-repeat;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 4rem;
-        letter-spacing: 10px;
+        font-size: clamp( 2rem, 5vw, 5rem);
+        letter-spacing: 6px;
         background-size: cover;
         margin: 0px;
         color: transparent;
