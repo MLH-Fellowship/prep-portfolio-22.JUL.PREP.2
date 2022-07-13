@@ -3,10 +3,23 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  {% include header.html %}
+{% include header.html %}
 
-  <body>
-    {% include navbar.html %} {% include profile.html %} {% include
-    description.html %} {% include projects.html %} {% include footer.html %}
-  </body>
+<body>
+    {% include navbar.html %}
+
+    {% include profile.html %}
+
+    {% include description.html %}
+
+    {% include projects.html %}
+
+    {% include footer.html %}
+</body>
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
+
 </html>
