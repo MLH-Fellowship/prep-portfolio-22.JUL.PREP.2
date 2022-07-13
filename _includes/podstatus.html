@@ -1,33 +1,33 @@
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <div class="bgimg">
     <div align="center">
         <h2 class="leaderboard">LeaderBoard</h2>
     </div>
     <div class="score">
         <table class="tab" align="center">
-        <tr style="line-height: 1px;">
-            <th>#</th>
-            <th>Name</th>
-            <th>Commit Track</th>
-            <th>PRs Merged</th>
-        </tr>
-        <tr style="line-height: 1px;">
+        <thead>
+            <tr style="line-height: 1px;">
+                <th>Rank</th>
+                <th>Name</th>
+                <th>PRs Merged</th>
+            </tr>
+        </thead>
+        <tbody id="tableData"></tbody>
+        <!-- <tr style="line-height: 1px;">
             <td>1</td>
             <td>Ishita Kapoor</td>
-            <td>0</td>
             <td>0</td>
         </tr>
         <tr style="line-height: 1px;">
             <td>2</td>
             <td>Krisha Adeshara</td>
             <td>0</td>
-            <td>0</td>
         </tr>
         <tr style="line-height: 1px;">
             <td>3</td>
             <td>Sahiba Khan</td>
             <td>0</td>
-            <td>0</td>
-        </tr>
+        </tr> -->
         </table>
     
     </div>
@@ -51,4 +51,133 @@
     }
     setInterval(changeBg, 1000)
 </script> -->
+
+<script>
+
+    let vara = -1; 
+
+    let fellows = [
+        {
+            "name" : "Krisha Adeshara",
+            "username" : "Krishi-02",
+            "PRs" : 0
+        },
+        {
+            "name" : "Ishita Kapoor",
+            "username" : "ishitakapoor26",
+            "PRs" : 0
+        },
+        {
+            "name" : "Abdulwasiu Apalowo",
+            "username" : "mrbazzan",
+            "PRs" : 0
+        },
+        {
+            "name" : "Tiffany Pan",
+            "username" : "tiffany-pann",
+            "PRs" : 0
+        },
+        {
+            "name" : "Hetvi Soni",
+            "username" : "HetviSoni",
+            "PRs" : 0
+        },
+        {
+            "name" : "Ruchita Gosavi",
+            "username" : "Ruchita1010",
+            "PRs" : 0
+        },
+        {
+            "name" : "Sahiba Khan",
+            "username" : "sahibardj",
+            "PRs" : 0
+        },
+        {
+            "name" : "Sai Pravallika Myneni",
+            "username" : "Pravallika-Myneni",
+            "PRs" : 0
+        },
+        {
+            "name" : "Shofiya Bootwala",
+            "username" : "Shofiya2003",
+            "PRs" : 0
+        },
+        {
+            "name" : "Akhilesh Manda",
+            "username" : "AkhileshManda",
+            "PRs" : 0
+        },
+        {
+            "name" : "Arpit Bhalla",
+            "username" : "arpitbhalla",
+            "PRs" : 0
+        },
+        {
+            "name" : "Kaushal Joshi",
+            "username" : "joshi-kaushal",
+            "PRs" : 0
+        },
+        {
+            "name" : "Reeju Bhattacharya",
+            "username" : "reejuBhattacharya",
+            "PRs" : 0
+        },
+        {
+            "name" : "Shivam Jha",
+            "username" : "jhashivam-2001",
+            "PRs" : 0
+        },
+        {
+            "name" : "Arunima Chaudhuri",
+            "username" : "tinniaru3005",
+            "PRs" : 0
+        },
+    ]
+    
+    function compare(a, b) {
+        if(a.PRs > b.PRs){
+            return -1; 
+        }
+        return 1
+    }
+
+    const fetchStats = () => {
+        const req = fellows.map((name, index) => {
+            return axios.get("https://api.github.com/repos/MLH-Fellowship/prep-portfolio-22.JUL.PREP.2/issues", {
+                params: {
+                    assignee: name.username, 
+                    state:"closed"
+                }
+            })
+            .then(res =>{
+                vara = res.data.length
+                console.log(res.data)
+                console.log(name.username)
+                fellows[index].PRs = fellows[index].PRs + vara; 
+                console.log(fellows[index].PRs)
+            })
+            .catch(error => console.log(error))
+        });
+
+        return Promise.all(req).then(() => {
+            console.log(fellows);
+            fellows.sort(compare);
+
+            const data1 = document.getElementById("tableData");
+            fellows.map((fellow, index) => {
+                var tableRow = document.createElement("tr");
+                var rank = document.createElement("td");
+                rank.innerHTML = index + 1; 
+                var fellowName = document.createElement("td");
+                fellowName.innerHTML = fellow.name;
+                var count = document.createElement("td");
+                count.innerHTML = fellow.PRs;
+                tableRow.append(rank, fellowName, count);
+                data1.append(tableRow)
+            });
+        });
+    }; 
+
+    fetchStats();
+</script>
 
