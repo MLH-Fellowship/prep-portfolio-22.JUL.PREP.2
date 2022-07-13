@@ -1,16 +1,15 @@
 <h2>Blogs</h2>
 <div class="card-container">
-    {% for post in site.posts limit:3 %}
-    <a href="{{post.url}}">
-      <div class="card">
-        <div class="info">
-          <p class="title">{{ post.title }}</p>
-          <p class="author">{{ post.author }}</p>
-          <p class="dates">{{ post.date | date_to_long_string }}</p>
-        </div>
+  {% for post in site.posts limit:3 %}
+  <a href="{{post.url}}">
+    <div class="card">
+      <div class="info">
+        <p class="title">{{ post.title }}</p>
+        <p class="author">{{ post.author }}</p>
+        <p class="dates">{{ post.date | date_to_long_string }}</p>
       </div>
-    </a>
-    {% endfor %}
-    <a href="/blog-list/" id="see-more-link">See More</a>
-  </div>
-  
+    </div>
+  </a>
+  {% endfor %}
+  <a href="/blog-list/" id="see-more-link">See More</a>
+</div>
