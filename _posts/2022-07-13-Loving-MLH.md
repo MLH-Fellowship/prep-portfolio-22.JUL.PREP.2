@@ -3,8 +3,6 @@ layout: post
 author: "Jane Doe"
 ---
 
-# Welcome
-
 **This is my wonderful experience with MLH.**
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet ligula mollis, eleifend nisl in, luctus leo. Vestibulum vehicula elementum tellus ut dapibus. Donec hendrerit massa quis sodales feugiat. Suspendisse in quam id mauris pulvinar tempor vitae nec elit. Mauris tempor lorem felis, in tempor dui molestie ut. Nunc scelerisque aliquet libero quis congue. Donec euismod risus vel leo ornare placerat. Nam nibh lacus, dictum ultrices turpis aliquet, tincidunt pharetra nibh. Phasellus viverra ipsum at egestas pellentesque. Curabitur lacinia et dui sed dictum. Nam sollicitudin nisi non arcu maximus vestibulum.

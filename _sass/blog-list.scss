@@ -1,0 +1,37 @@
+.blog-list {
+    margin: 2rem auto;
+    max-width: 50%;
+    min-width: 325px;
+
+    .container {
+        max-height: 250px;
+        white-space: normal;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-top: 6rem;
+    }
+
+    .heading {
+        margin: 0;
+        font-weight: 700;
+        font-size: 4em;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 1.8em;
+        font-weight: 400;
+        letter-spacing: 0.08;
+    }
+
+    .date {
+        color: rgb(171, 168, 168);
+        letter-spacing: 0.05;
+    }
+    
+    .line {
+        height: 1px;
+        background-color: grey;
+        margin-top: 5rem;
+    }
+}
