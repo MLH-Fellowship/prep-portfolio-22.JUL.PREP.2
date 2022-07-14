@@ -1,10 +1,11 @@
 .footer-container {
   background-color: #133667 !important;
+  display: flex;
 }
 
 .footer {
   width: 80%;
-  height: 30vh;
+  height: 20vh;
   display: flex;
   flex-direction: row;
   color: #fff;
@@ -16,13 +17,12 @@
   display: flex;
   flex: 2;
   flex-direction: column;
-  margin-top: 2rem;
+  // margin-top: 2rem;
 }
 
 .footer-title a {
   color: #fff;
   text-decoration: none;
-  margin-bottom: 0.3rem;
 }
 
 .footer-title a:hover {
@@ -39,9 +39,20 @@
 }
 
 .footer .nav-logo {
+  display: flex;
   margin: auto;
 }
 
 .nav-logo-right {
   flex: 0;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+}
+
+.mlhlink {
+  display: flex;
+  align-items: center;
 }
