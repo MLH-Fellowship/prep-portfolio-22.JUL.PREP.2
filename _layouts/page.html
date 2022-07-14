@@ -3,14 +3,21 @@ layout: default
 ---
 
 <div class="banner">
-  <div class="container">
-    <div class="logo">
-      <a href="/">
-        <img src="/assets/img/logo.svg" />
-      </a>
+    <div class="container">
+        <div class="logo">
+            <a href="/">
+                <img class="logo-image" src="/assets/img/mlh-prep.png"/>
+            </a>
+        </div>
+        <div class="title">
+            {{ page.title }}
+        </div>
     </div>
     <div class="title">{{ page.title }}</div>
   </div>
 </div>
 
-<div class="container page">{{ content }}</div>
+<div class="container page">
+    {{ content }}
+    <a href="/" class ="back-button">&laquo; Back to Pod home</a>
+</div>

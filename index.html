@@ -1,5 +1,6 @@
 ---
 ---
+
 <!DOCTYPE html>
 <html lang="en">
 {% include header.html %}
@@ -8,12 +9,20 @@
     {% include navbar.html %}
 
     {% include profile.html %}
-    
+
     {% include description.html %}
-    
+
     {% include projects.html %}
 
-    {% include blogs.html %}
+    {% include blogs.html %
+    
+    {% include footer.html %}
 </body>
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
 
 </html>
+
