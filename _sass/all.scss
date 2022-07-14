@@ -56,8 +56,14 @@ h2 {
   font-size: 1.2em;
 }
 
+.card:hover{
+  background-color: #cacbcc82;
+  transition: 1s;
+}
+
 a {
   color: black;
+  padding: 0.2em;
 }
 
 .info {
@@ -156,5 +162,3 @@ $avatar-size: 20px;
   color: rgb(255, 255, 255);
   font-weight: 500;
 }
-
-
