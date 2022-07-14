@@ -1,8 +1,9 @@
+<!-- The blogs section on the homepage -->
 <h2>Blogs</h2>
-<div class="card-container">
-  {% for post in site.posts limit:3 %}
-  <a href="{{post.url}}">
-    <div class="card">
+<div class="card-container blog-container">
+  {% for post in site.posts limit:4 %}
+  <a href="{{post.url}}" class="blog-link">
+    <div class="card blog-card">
       <div class="info">
         <p class="title">{{ post.title }}</p>
         <p class="author">{{ post.author }}</p>
@@ -11,5 +12,7 @@
     </div>
   </a>
   {% endfor %}
-  <a href="/blog-list/" id="see-more-link">See More</a>
 </div>
+<a href="/blog-list/" id="see-more-link" class="blogs_see-more"
+  >Read More Blogs</a
+>

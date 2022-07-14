@@ -25,6 +25,15 @@
     letter-spacing: 0.08;
   }
 
+  .blogs_post-title {
+    color: #1d539f;
+    transition: all 300ms ease-in-out;
+
+    &:hover {
+      color: #e2a120;
+    }
+  }
+
   .blog-info {
     margin: 0.25rem 0;
   }
