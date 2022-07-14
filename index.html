@@ -3,34 +3,31 @@
 
 <!DOCTYPE html>
 <html lang="en">
-{% include header.html %}
+  {% include header.html %}
 
-<body>
-    <div id="preloader"></div>
+  <body>
+    <div id="preloader">
+      <img
+        src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/300/ffffff/external-jaguar-colombia-icongeek26-glyph-icongeek26.png"
+        alt="Preloader"
+      />
+      <h2>Javascript Jaguars</h2>
+    </div>
 
-    {% include navbar.html %}
+    {% include navbar.html %} {% include profile.html %} {% include
+    description.html %} {% include projects.html %} {% include blogs.html %} {%
+    include footer.html %}
+  </body>
 
-    {% include profile.html %}
-
-    {% include description.html %}
-
-    {% include projects.html %}
-
-    {% include blogs.html %}
-    
-    {% include footer.html %}
-</body>
-<script>
+  <script>
     $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-    })
+      $('[data-toggle="tooltip"]').tooltip();
+    });
 
     let preloader = document.getElementById("preloader");
     window.addEventListener("load", () => {
-        preloader.style.opacity = 0;
-        preloader.style.pointerEvents = "none";
+      preloader.style.opacity = 0;
+      preloader.style.pointerEvents = "none";
     });
-</script>
-
+  </script>
 </html>
-
