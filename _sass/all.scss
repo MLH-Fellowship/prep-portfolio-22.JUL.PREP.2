@@ -167,15 +167,14 @@ p {
   color: rgb(136, 136, 136);
 }
 .container {
-  display: grid;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  overflow: hidden;
+  height: 35vh;
 }
 .container h1 {
-  position: absolute;
+  position: relative;
   color: white;
   font-size: 150px;
   opacity: 0.2;
@@ -217,9 +216,11 @@ p {
   transition: 0.5s;
 }
 .user-pic img {
-  height: 100%;
-  display: block;
-  margin-left: -25%;
+
+  height: 112%;
+
+  display: inline;
+
 }
 .name {
   text-align: center;
