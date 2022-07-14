@@ -18,11 +18,22 @@
     {% include blogs.html %}
 
     {% include footer.html %}
+
+
 </body>
 <script>
+    var theme;
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()
     })
+    function initializeTheme() {
+        theme = localStorage.getItem('theme');
+    }
+    function toggleTheme() {
+        theme = theme === 'dark' ? "light" : "dark"
+        document.body.setAttribute("data-theme", theme);
+        localStorage.setItem("theme", theme)
+    }
 </script>
 
 </html>
