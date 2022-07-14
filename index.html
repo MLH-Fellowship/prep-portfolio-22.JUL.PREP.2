@@ -25,12 +25,18 @@
     var theme;
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()
+        initializeTheme()
     })
     function initializeTheme() {
         theme = localStorage.getItem('theme');
+        console.log(theme)
+        setTheme()
     }
     function toggleTheme() {
-        theme = theme === 'dark' ? "light" : "dark"
+        theme = (theme === 'dark' ? "light" : "dark")
+        setTheme()
+    }
+    function setTheme() {
         document.body.setAttribute("data-theme", theme);
         localStorage.setItem("theme", theme)
     }
