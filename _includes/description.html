@@ -6,6 +6,10 @@
         <div class="info">
             <p class="title"> {{ item.name }}</p>
             <p class="location"> {{ item.location }}</p>
+            <a href="{{item.github}}" class="fab fa-lg fa-github" target="_blank"></a>
+            <a href="{{item..linkedIn}}" class="fab fa-lg fa-linkedin" target="_blank"></a>
+            <a href="{{item..twitter}}" class="fab fa-lg fa-twitter" target="_blank"></a>
+            <a href="{{item..resume}}" class="fas fa-lg fa-file" target="_blank"></a>
         </div>
     </div>
     {% endfor %}
