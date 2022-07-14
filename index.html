@@ -6,6 +6,8 @@
 {% include header.html %}
 
 <body>
+    <div id="preloader"></div>
+
     {% include navbar.html %}
 
     {% include profile.html %}
@@ -22,6 +24,12 @@
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()
     })
+
+    let preloader = document.getElementById("preloader");
+    window.addEventListener("load", () => {
+        preloader.style.opacity = 0;
+        preloader.style.pointerEvents = "none";
+    });
 </script>
 
 </html>
