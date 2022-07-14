@@ -242,4 +242,55 @@ hr {
     width: 262px !important;
  }
 
+ @media (min-width:287px) and (max-width:420px) {
+    .div_img{
+        height: 96px !important;
+    width: 79px !important;
+    }
+    .after_img{
+        top: 77%;
+        left: 71%;
+    } 
+ }
+
+ @media (min-width:421px) and (max-width:627px) {
+    .div_img{
+        height: 115px !important;
+    width: 101px !important;
+    }
+    .after_img{
+        top: 77%;
+        left: 67%;
+    } 
+ }
+ @media (min-width:628px) and (max-width:987px) {
+    .div_img{
+        height: 148px !important;
+    width: 131px !important;
+    }
+    .after_img{
+    top: 76%;
+    left: 68%;
+    } 
+ }
+ @media (min-width:987px) and (max-width: 1316px) {
+    .div_img{
+        height: 148px !important;
+    width: 131px !important;
+    }
+    .after_img{
+        top: 75%;
+        left: 71%;
+    } 
+ }
+ @media (min-width:1317px) {
+    .div_img{
+        height: 148px !important;
+    width: 131px !important;
+    }
+    .after_img{
+        top: 75%;
+    left: 73%;
+    } 
+ }
 
