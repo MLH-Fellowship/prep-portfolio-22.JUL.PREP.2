@@ -163,10 +163,7 @@ $avatar-size: 20px;
   * {
     box-sizing: border-box;
   }
-  .title{
-    font-size:60px;
-    padding:20px 0px;
-  }
+  
   body {
     font-family: 'Lato', sans-serif;
     background-color:#eaeaea;
@@ -178,7 +175,8 @@ $avatar-size: 20px;
   /* Float three columns side by side */
   .column {
     float: left;
-    width: 33.33%;
+    width: 25%;
+    height: 20%;
     padding: 0 10px;
   }
   
@@ -248,22 +246,6 @@ $avatar-size: 20px;
   }
   .card:hover .content .from-left {
      left:0%;
-  }
-  
-  .from-bottom{
-    top:100%;
-    left:0;
-  }
-  .card:hover .content .from-bottom {
-     top:0%;
-  }
-  
-  .from-right{
-    top:0%;
-    right:-100%;
-  }
-  .card:hover .content .from-right {
-     right:0;
   }
   
   .card .content .back h3{
