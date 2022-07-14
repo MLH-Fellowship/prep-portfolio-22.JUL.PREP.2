@@ -171,3 +171,14 @@ $avatar-size: 20px;
   z-index: 4000;
   transition: 1s ease;
 }
+
+#to-top-button {
+  display: none;
+  position: fixed;
+  background-color: blue;
+  bottom: 30px;
+  right: 30px;
+  font-size: 30px;
+  z-index: 1500;
+  // change css
+}
