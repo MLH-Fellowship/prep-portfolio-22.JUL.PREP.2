@@ -9,8 +9,13 @@ github_username:  mlh-fellowship
 
 sass:
   sass_dir: _sass
+
 gems:
     - jekyll-maps
+
+plugins:
+  - jekyll-maps
+
 
 # for map
 maps:
