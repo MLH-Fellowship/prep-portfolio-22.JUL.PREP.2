@@ -4,7 +4,9 @@
 @import "profile";
 @import "page";
 
-
+html {
+  scroll-behavior: smooth;
+}
 .card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

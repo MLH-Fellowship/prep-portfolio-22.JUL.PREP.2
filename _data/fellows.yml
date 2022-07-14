@@ -15,6 +15,7 @@
   location: New York City, USA
 
 - name: Arpit Bhalla
+  img: mlh.jpg
   username: arpitBhalla
   location: New York City, USA
   url: https://github.com/arpitbhalla
@@ -22,11 +23,15 @@
     twitter: arpit
     github: arpit
     linkedin: arpit
-  img: https://github.com/arpitbhalla.png
+  
 
 - name: Akhilesh
   username: AkhileshManda
-  location: New York City, USA
+  img: AkhileshManda.jpg
+  location: Bengaluru, IN
   url: https://github.com/AkhileshManda
   social:
-  img: https://github.com/AkhileshManda.png
+      twitter: https://twitter.com/Akhiles63114004
+      github: https://github.com/AkhileshManda
+      linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
+  
