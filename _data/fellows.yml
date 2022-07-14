@@ -27,8 +27,11 @@
 
 - name: Akhilesh
   username: AkhileshManda
-  img: swift.jpg
-  location: New York City, USA
+  img: AkhileshManda.jpg
+  location: Bengaluru, IN
   url: https://github.com/AkhileshManda
   social:
+      twitter: https://twitter.com/Akhiles63114004
+      github: https://github.com/AkhileshManda
+      linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
   
