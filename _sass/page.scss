@@ -102,6 +102,12 @@ hr {
     margin-bottom: 1em !important;
 }
 
+#see-more-link {
+    display: flex; 
+    justify-content:center; 
+    align-items: center; 
+    font-size: 1.2em;
+  }
 .logo-image{
     height: 41px;
 }
