@@ -15,15 +15,14 @@
   location: New York City, USA
 
 - name: Arpit Bhalla
-  img: mlh.jpg
+  img: https://avatars.githubusercontent.com/u/55053424?v=4
   username: arpitBhalla
-  location: New York City, USA
-  url: https://github.com/arpitbhalla
+  location: Kuruksehtra, India
+  url: https://arpitbhalla.github.io/
   social:
-    twitter: arpit
-    github: arpit
-    linkedin: arpit
-  
+    twitter: https://twitter.com/arpitbhalla_
+    github: https://github.com/arpitbhalla
+    linkedin: https://www.linkedin.com/in/arpitbhalla
 
 - name: Akhilesh
   username: AkhileshManda
@@ -31,16 +30,16 @@
   location: Bengaluru, IN
   url: https://github.com/AkhileshManda
   social:
-      twitter: https://twitter.com/Akhiles63114004
-      github: https://github.com/AkhileshManda
-      linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
-  
+    twitter: https://twitter.com/Akhiles63114004
+    github: https://github.com/AkhileshManda
+    linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
+
 - name: Kaushal
   username: kaushal
   img: KaushalJoshi.png
   location: Mumbai, India
   url: https://kaushaljoshi.vercel.app/
   social:
-      twitter: https://twitter.com/clumsy_coder
-      github: https://github.com/joshi-kaushal
-      linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
+    twitter: https://twitter.com/clumsy_coder
+    github: https://github.com/joshi-kaushal
+    linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
