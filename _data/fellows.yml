@@ -1,21 +1,21 @@
 - name: Will
-  img: logo.jpg
+  img: assets/img/logo.jpg
   location: London, UK
 
 - name: Amanda
-  img: amanda.jpg
+  img: assets/img/amanda.jpg
   location: New York City, USA
 
 - name: Aaron
-  img: aaron.jpg
+  img: assets/img/aaron.jpg
   location: London, UK
 
 - name: Swift
-  img: swift.jpg
+  img: assets/img/swift.jpg
   location: New York City, USA
 
 - name: Arpit Bhalla
-  img: mlh.jpg
+  img: assets/img/mlh.jpg
   username: arpitBhalla
   location: New York City, USA
   url: https://github.com/arpitbhalla
@@ -27,7 +27,7 @@
 
 - name: Akhilesh
   username: AkhileshManda
-  img: AkhileshManda.jpg
+  img: assets/img/AkhileshManda.jpg
   location: Bengaluru, IN
   url: https://github.com/AkhileshManda
   social:
@@ -37,7 +37,7 @@
   
 - name: Kaushal
   username: kaushal
-  img: KaushalJoshi.png
+  img: assets/img/KaushalJoshi.png
   location: Mumbai, India
   url: https://kaushaljoshi.vercel.app/
   social:
