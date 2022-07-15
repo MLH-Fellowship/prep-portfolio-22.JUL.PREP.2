@@ -91,5 +91,21 @@
   linkedin: https://www.linkedin.com/in/arpitbhalla
   bio: An aspiring Engineer interested in contributing to the world through Open Source Softwares. Currently co-maintaining most popular React Native library for UI, React Native Elements.
   coordinates:
-    lat: 29.9430339
-    long: 76.8151131
+     lat: 29.9430339
+     lng: 76.8151131
+     
+- name: Hetvi Soni
+  image: Hetvi.jpg
+  birth_date: May 18th, 2002
+  city: Valsad
+  school: Indian Institute of Information Technology, Vadodara
+  tech_skills: Java, Flutter
+  hobbies: Painting, travelling
+  github: https://github.com/HetviSoni
+  linkedin: https://www.linkedin.com/in/hetvi-soni-46a99b1b6/
+  twitter: 
+  bio: Hi, I am Hetvi Soni. I am currently starting my junior year at IIIT Vadodara.I love learning and exploring new things. 
+  coordinates:
+     lat : 20.5925 
+     lng: 72.9362
+
