@@ -1,7 +1,12 @@
 
 
+<<<<<<< HEAD
 <h1 class="map-header">Map</h1>
 <div id="map" ></div>
+=======
+<h1>Map</h1>
+<div id="map"></div>
+>>>>>>> parent of 23842ec (resolved merge conflicts)
 <script>
 
 function initMap() {
@@ -28,11 +33,12 @@ function initMap() {
         console.log(fellow);
         const marker = new google.maps.Marker({
         position: new google.maps.LatLng(fellow.coordinates.lat, fellow.coordinates.lng),
+        title:"hello",
         map: map,
         icon: icon
         });
         marker.setMap(map);
-        const contentString=`<div><a href=${fellow.url}><h3>${fellow.name}</h3></a><br>${fellow.location}</div>`
+        const contentString=`<div>${fellow.name}<div>`
     
             const infowindow = new google.maps.InfoWindow({
             content: contentString,

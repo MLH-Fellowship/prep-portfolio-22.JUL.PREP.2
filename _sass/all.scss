@@ -4,6 +4,7 @@
 @import "theme";
 @import "profile";
 @import "page";
+<<<<<<< HEAD
 @import "footer";
 <<<<<<< HEAD
 @import 'blog';
@@ -12,6 +13,8 @@
 @import "blog";
 @import "blog-list";
 >>>>>>> b385d969b44c690af38299343f4caf2e58e64abb
+=======
+>>>>>>> parent of 23842ec (resolved merge conflicts)
 
 
 html {
@@ -47,7 +50,7 @@ body {
 }
 h2 {
   margin-bottom: 20px;
-  margin-top: 51px;
+  margin-top: 20px;
   font-weight: 700;
   text-align: center;
 }
@@ -64,6 +67,7 @@ h2 {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .card:hover{
 =======
 .card:hover {
@@ -72,9 +76,10 @@ h2 {
   transition: 1s;
 }
 
+=======
+>>>>>>> parent of 23842ec (resolved merge conflicts)
 a {
   color: black;
-  padding: 0.2em;
 }
 
 .info {
@@ -173,6 +178,7 @@ $avatar-size: 20px;
   color: rgb(255, 255, 255);
   font-weight: 500;
 }
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 =======
@@ -209,3 +215,5 @@ $avatar-size: 20px;
   }
 }
 >>>>>>> b385d969b44c690af38299343f4caf2e58e64abb
+=======
+>>>>>>> parent of 23842ec (resolved merge conflicts)
