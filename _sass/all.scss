@@ -1,13 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
-@import 'navbar';
-@import 'profile';
-@import 'page';
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import "navbar";
+@import "profile";
+@import "page";
+@import "footer";
+@import 'blog';
+@import 'blog-list';
 
+html {
+  scroll-behavior: smooth;
+}
 .card-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    font-family: "Open Sans", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-family: "Open Sans", sans-serif;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -28,63 +34,131 @@
   }
 }
 
-
 body {
-    background-color: #f5f5f9;
-    margin-bottom: 50px;
+  background-color: #f5f5f9;
+  margin-bottom: 50px;
 }
 h2 {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-weight: 700;
-    text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 20px 30px;
-    background-color: white;
-    border-radius: .375rem;
-    padding: 1.5em;
-    font-size: 1.2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 30px;
+  background-color: white;
+  border-radius: 0.375rem;
+  padding: 1.5em;
+  font-size: 1.2em;
+}
+
+.card:hover{
+  background-color: #cacbcc82;
+  transition: 1s;
 }
 
 a {
-    color: black;
+  color: black;
+  padding: 0.2em;
 }
 
 .info {
-    p {
-        margin-top: 5px;
-        margin: 0px;
-        text-align: left;
-    }
+  p {
+    margin-top: 5px;
+    margin: 0px;
+    text-align: left;
+  }
 
-    .title {
-        font-size: 500;
-        font-weight: bold;
-    }
+  .title {
+    font-size: 500;
+    font-weight: bold;
+  }
 
-    .location, .description {
-        font-size: medium;
-        font-weight: 400;
-    }
+  .location,
+  .description {
+    font-size: medium;
+    font-weight: 400;
+  }
 
-    .dates {
-        font-size: small;
-        color: #404040;
-    }
+  .dates {
+    font-size: small;
+    color: #404040;
+  }
 }
 
 .icon {
-    width: 70px;
-    height: 70px;
-    margin-right: 20px;
-    padding: 10px;
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+  padding: 10px;
 
-    img {
-        width: 100%;
+  img {
+    width: 100%;
+  }
+}
+
+$avatar-size: 20px;
+
+.projects {
+  a {
+    text-decoration: none;
+  }
+  .card {
+    margin: 20px 10px;
+    padding: 0em 0em;
+    border-radius: 12px;
+    overflow: hidden;
+    align-items: unset;
+    height: 16rem;
+  }
+  .avatar {
+    width: $avatar-size;
+    height: $avatar-size;
+    border-radius: 50%;
+    margin: 0rem 0.1rem 0rem 0.2rem;
+  }
+  .desc {
+    font-size: small;
+  }
+  .card-img-top {
+    position: absolute;
+    height: 100%;
+  }
+  .tags {
+    margin: 8px 0px;
+  }
+  .content {
+    height: 100%;
+    padding: 3rem 1rem;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.1) 10%,
+      rgba(0, 0, 0, 0.78) 80%
+    );
+    opacity: 0;
+    transform: translateY(0);
+    transition: opacity 300ms ease-in-out 0s, transform 300ms ease-in-out 0s;
+    * {
+      color: white;
     }
+  }
+  .card:hover {
+    .content {
+      opacity: 1;
+    }
+  }
+}
+
+.tag {
+  background: rgb(105, 104, 105);
+  padding: 4px 10px;
+  border-radius: 50px;
+  text-transform: capitalize;
+  font-size: 11px;
+  margin-right: 6px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
 }
