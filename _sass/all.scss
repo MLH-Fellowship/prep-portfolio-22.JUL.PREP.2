@@ -3,6 +3,9 @@
 @import "navbar";
 @import "profile";
 @import "page";
+@import "footer";
+@import 'blog';
+@import 'blog-list';
 
 
 html {
@@ -54,8 +57,14 @@ h2 {
   font-size: 1.2em;
 }
 
+.card:hover{
+  background-color: #cacbcc82;
+  transition: 1s;
+}
+
 a {
   color: black;
+  padding: 0.2em;
 }
 
 .info {

@@ -32,6 +32,7 @@
 
 - name: Akhilesh
   username: AkhileshManda
+<<<<<<< HEAD
   img: swift.jpg
   url: https://github.com/AkhileshManda
   social:
@@ -40,4 +41,22 @@
   coordinates:
     lat: 40.4378698
     lng: -3.8196204
+=======
+  img: AkhileshManda.jpg
+  location: Bengaluru, IN
+  url: https://github.com/AkhileshManda
+  social:
+      twitter: https://twitter.com/Akhiles63114004
+      github: https://github.com/AkhileshManda
+      linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
+>>>>>>> 4358fdd32aa1046cdfd22db120612da0c98605cf
   
+- name: Kaushal
+  username: kaushal
+  img: KaushalJoshi.png
+  location: Mumbai, India
+  url: https://kaushaljoshi.vercel.app/
+  social:
+      twitter: https://twitter.com/clumsy_coder
+      github: https://github.com/joshi-kaushal
+      linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
