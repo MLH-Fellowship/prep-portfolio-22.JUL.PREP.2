@@ -1,34 +1,53 @@
 - name: Will
   img: logo.jpg
-  location: London, UK
-
-- name: Amanda
-  img: amanda.jpg
-  location: New York City, USA
-
-- name: Aaron
-  img: aaron.jpg
-  location: London, UK
-
-- name: Swift
-  img: swift.jpg
-  location: New York City, USA
+  title: Will
+  url: http://google.fr
+  location: spain
+  coordinates: 
+    lat: 48.8587741
+    lng: 2.2074741
+    
+    
 
 - name: Arpit Bhalla
   img: mlh.jpg
   username: arpitBhalla
-  location: New York City, USA
   url: https://github.com/arpitbhalla
   social:
     twitter: arpit
     github: arpit
     linkedin: arpit
+    title: Aaron
+  url: http://google.fr
+  location: Madrid
+  coordinates: 
+    lat: 40.4378698
+    lng: -3.8196204
+    
+    
   
 
 - name: Akhilesh
   username: AkhileshManda
   img: swift.jpg
-  location: New York City, USA
   url: https://github.com/AkhileshManda
   social:
+  title: Aaron
+  url: http://google.fr
+  location: Delhi
+  coordinates:
+    lat: 28.7041
+    lng: 77.1025
   
+- name: Kaushal
+  username: kaushal
+  img: KaushalJoshi.png
+  location: Mumbai, India
+  url: https://kaushaljoshi.vercel.app/
+  social:
+      twitter: https://twitter.com/clumsy_coder
+      github: https://github.com/joshi-kaushal
+      linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
+  coordinates:
+    lat: 19.0760
+    lng: 72.8777
