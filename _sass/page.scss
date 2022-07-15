@@ -113,8 +113,12 @@ hr {
 }
 
 #map{
+    margin : 0 auto;
+    border: 5px solid #022c67;
+    padding: 50px 0;
     height: 400px;
-    width: 100%;
+    width: 70%;
+    
 }
 
 @media screen and (max-width: 768px) {
