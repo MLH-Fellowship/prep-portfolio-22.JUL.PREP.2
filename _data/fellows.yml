@@ -1,5 +1,6 @@
 - name: Sahiba Khan
   img: assets/img/sahiba.png
+  username: sahibardj
   birth_date: 11 July
   location: Agra, India
   school: G L Bajaj
@@ -7,17 +8,16 @@
   hobbies: writing
   bio: Heyya, I'm Sahiba a software engineer driven by solving real world problems and making a tangible change.
   url: https://github.com/sahibardj
-  social:
-    twitter: https://twitter.com/
-    github: https://github.com/sahibardj
-    linkedin: https://www.linkedin.com/in/sahiba-khan-rdj/
+  twitter: https://twitter.com/
+  github: https://github.com/sahibardj
+  linkedin: https://www.linkedin.com/in/sahiba-khan-rdj/
   coordinates:
     lat: 27
     lng: 78
 
 - name: Akhilesh
-  username: /assets/img/AkhileshManda
-  img: AkhileshManda.jpg
+  username: AkhileshManda
+  img: /assets/img/AkhileshManda.jpg
   location: Bengaluru, IN
   url: https://github.com/AkhileshManda
   twitter: https://twitter.com/Akhiles63114004
@@ -34,8 +34,9 @@
   linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
 
 - name: Reeju Bhattacharya
-  image: /assets/img/reeju.jpg
+  img: /assets/img/reeju.jpg
   birth_date: May 27, 2002
+  username: reejuBhattacharya
   city: Howrah
   school: IIEST Shibpur
   tech_skills: Java, Android(Kotlin)
