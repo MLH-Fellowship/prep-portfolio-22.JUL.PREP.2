@@ -1,6 +1,12 @@
-- name: Will
-  img: logo.jpg
-  location: London, UK
+- name: Sahiba Khan
+  username: sahibardj
+  img: assets/img/sahiba.png
+  location: Agra, India
+  url: https://github.com/sahibardj
+  social:
+      twitter: https://twitter.com/
+      github: https://github.com/sahibardj
+      linkedin: https://www.linkedin.com/in/sahiba-khan-rdj/
 
 - name: Amanda
   img: amanda.jpg
