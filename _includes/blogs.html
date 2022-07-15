@@ -1,5 +1,5 @@
 <!-- The blogs section on the homepage -->
-<h2>Blogs</h2>
+<h2 id="blog">Blogs</h2>
 <div class="card-container blog-container">
   {% for post in site.posts limit:4 %}
   <a href="{{post.url}}" class="blog-link">
@@ -13,6 +13,4 @@
   </a>
   {% endfor %}
 </div>
-<a href="/blog-list/" id="see-more-link" class="blogs_see-more"
-  >Read More Blogs</a
->
+<a href="/blog-list/" id="see-more-link" class="blogs_see-more">Read More Blogs</a>
