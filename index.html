@@ -5,26 +5,33 @@
 <html lang="en">
   {% include header.html %}
 
-  <body>
+<body>
     <div id="preloader">
       <img src="/assets/img/jagurar.png" alt="Preloader" />
       <h2>Javascript Jaguars</h2>
     </div>
 
-    {% include navbar.html %} {% include profile.html %} {% include
-    description.html %} {% include projects.html %} {% include blogs.html %} {%
-    include footer.html %}
-  </body>
+    {% include description.html %}
 
-  <script>
+    {% include podstatus.html %}
+
+    {% include projects.html %}
+
+    {% include blogs.html %}
+    
+    {% include footer.html %}
+    
+    <script>
     $(function () {
-      $('[data-toggle="tooltip"]').tooltip();
-    });
+        $('[data-toggle="tooltip"]').tooltip();
+    });                                     
 
     let preloader = document.getElementById("preloader");
     window.addEventListener("load", () => {
       preloader.style.opacity = 0;
       preloader.style.pointerEvents = "none";
     });
-  </script>
+    </script>
+</body>
+
 </html>
