@@ -5,11 +5,13 @@ layout: page
 <!-- This page displays individual blog -->
 <!DOCTYPE html>
 <html lang="en">
-  <body>
-    <div class="blog-heading">
-      <p class="author">{{page.author}}</p>
-      <p class="dates">{{ page.date | date_to_long_string }}</p>
-    </div>
-    <div class="blog-content">{{content}}</div>
-  </body>
+
+<body>
+  <div class="blog-heading">
+    <p class="author">{{page.author}}</p>
+    <p class="dates">{{ page.date | date_to_long_string }}</p>
+  </div>
+  <div class="blog-content">{{content}}</div>
+</body>
+
 </html>

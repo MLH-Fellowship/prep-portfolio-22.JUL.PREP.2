@@ -3,9 +3,14 @@
 
 <!DOCTYPE html>
 <html lang="en">
-{% include header.html %}
+  {% include header.html %}
 
-<body>
+<body data-spy="scroll" data-target="#nav-bar" data-offset="140">
+    <div id="preloader">
+      <img src="/assets/img/jagurar.png" alt="Preloader" />
+      <h2>Javascript Jaguars</h2>
+    </div>
+    
     {% include navbar.html %}
 
     {% include profile.html %}
@@ -19,13 +24,26 @@
     {% include projects.html %}
 
     {% include blogs.html %}
+<<<<<<< HEAD
     
     {% include footer.html %}
+=======
+
+    {% include footer.html %}
+
+>>>>>>> b385d969b44c690af38299343f4caf2e58e64abb
 </body>
+<script src="./assets/script/theme.js"></script>
 <script>
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()
-    })
+    });
+
+    let preloader = document.getElementById("preloader");
+    window.addEventListener("load", () => {
+      preloader.style.opacity = 0;
+      preloader.style.pointerEvents = "none";
+    });
 </script>
 
 </html>
