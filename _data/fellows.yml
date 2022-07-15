@@ -27,16 +27,6 @@
   img: swift.jpg
   location: New York City, USA
 
-- name: Arpit Bhalla
-  img: mlh.jpg
-  username: arpitBhalla
-  location: New York City, USA
-  url: https://github.com/arpitbhalla
-  social:
-    twitter: arpit
-    github: arpit
-    linkedin: arpit
-
 - name: Akhilesh
   username: AkhileshManda
   img: AkhileshManda.jpg
