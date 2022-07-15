@@ -10,5 +10,16 @@ github_username:  mlh-fellowship
 sass:
   sass_dir: _sass
 
+gems:
+    - jekyll-maps
+
+plugins:
+  - jekyll-maps
+
+
+# for map
+maps:
+    google:
+      api_key: AIzaSyCgJBn9afSN2q20A9BjYRrCviZmKKKNRTQ
 
 icon: /assets/img/icon.jpg

@@ -1,11 +1,15 @@
 ---
 ---
-
 <!DOCTYPE html>
 <html lang="en">
-{% include header.html %}
+  {% include header.html %}
 
-<body>
+<body data-spy="scroll" data-target="#nav-bar" data-offset="140">
+    <div id="preloader">
+      <img src="/assets/img/jagurar.png" alt="Preloader" />
+      <h2>Javascript Jaguars</h2>
+    </div>
+    
     {% include navbar.html %}
 
     {% include profile.html %}
@@ -14,19 +18,38 @@
     
     {% include map.html %}
 
-    {% include podstatus.html %}
-
     {% include projects.html %}
+<<<<<<< HEAD
+<<<<<<< HEAD
 
     {% include blogs.html %}
+<<<<<<< HEAD
     
     {% include footer.html %}
+=======
+
+    {% include footer.html %}
+
+>>>>>>> b385d969b44c690af38299343f4caf2e58e64abb
+=======
+>>>>>>> parent of 23842ec (resolved merge conflicts)
+=======
+>>>>>>> parent of 23842ec (resolved merge conflicts)
 </body>
+<script src="./assets/script/theme.js"></script>
 <script>
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()
-    })
+    });
+
+<<<<<<< HEAD
+    let preloader = document.getElementById("preloader");
+    window.addEventListener("load", () => {
+      preloader.style.opacity = 0;
+      preloader.style.pointerEvents = "none";
+    });
 </script>
 
+=======
+>>>>>>> parent of 23842ec (resolved merge conflicts)
 </html>
-

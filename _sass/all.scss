@@ -1,11 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
-@import "navbar";
+
+@import "theme";
 @import "profile";
 @import "page";
+<<<<<<< HEAD
+<<<<<<< HEAD
 @import "footer";
+<<<<<<< HEAD
 @import 'blog';
 @import 'blog-list';
+=======
+@import "blog";
+@import "blog-list";
+>>>>>>> b385d969b44c690af38299343f4caf2e58e64abb
+=======
+>>>>>>> parent of 23842ec (resolved merge conflicts)
+=======
+>>>>>>> parent of 23842ec (resolved merge conflicts)
 
 
 html {
@@ -41,7 +53,7 @@ body {
 }
 h2 {
   margin-bottom: 20px;
-  margin-top: 51px;
+  margin-top: 20px;
   font-weight: 700;
   text-align: center;
 }
@@ -57,14 +69,23 @@ h2 {
   font-size: 1.2em;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 .card:hover{
+=======
+.card:hover {
+>>>>>>> b385d969b44c690af38299343f4caf2e58e64abb
   background-color: #cacbcc82;
   transition: 1s;
 }
 
+=======
+>>>>>>> parent of 23842ec (resolved merge conflicts)
+=======
+>>>>>>> parent of 23842ec (resolved merge conflicts)
 a {
   color: black;
-  padding: 0.2em;
 }
 
 .info {
@@ -163,4 +184,45 @@ $avatar-size: 20px;
   color: rgb(255, 255, 255);
   font-weight: 500;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+<<<<<<< HEAD
+=======
+#preloader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 4000;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background: #133667;
+  transition: all 2s ease-in-out;
+}
+
+#preloader img,
+#preloader h2 {
+  animation: preloader 4s normal;
+}
+
+#preloader h2 {
+  font-size: 2rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+@keyframes preloader {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+>>>>>>> b385d969b44c690af38299343f4caf2e58e64abb
+=======
+>>>>>>> parent of 23842ec (resolved merge conflicts)
+=======
+>>>>>>> parent of 23842ec (resolved merge conflicts)
