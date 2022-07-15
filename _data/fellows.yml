@@ -8,9 +8,6 @@
     lng: 2.2074741
     
     
-  
-
-
 
 - name: Arpit Bhalla
   img: mlh.jpg
@@ -32,24 +29,15 @@
 
 - name: Akhilesh
   username: AkhileshManda
-<<<<<<< HEAD
   img: swift.jpg
   url: https://github.com/AkhileshManda
   social:
   title: Aaron
   url: http://google.fr
+  location: Delhi
   coordinates:
-    lat: 40.4378698
-    lng: -3.8196204
-=======
-  img: AkhileshManda.jpg
-  location: Bengaluru, IN
-  url: https://github.com/AkhileshManda
-  social:
-      twitter: https://twitter.com/Akhiles63114004
-      github: https://github.com/AkhileshManda
-      linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
->>>>>>> 4358fdd32aa1046cdfd22db120612da0c98605cf
+    lat: 28.7041
+    lng: 77.1025
   
 - name: Kaushal
   username: kaushal
@@ -60,3 +48,6 @@
       twitter: https://twitter.com/clumsy_coder
       github: https://github.com/joshi-kaushal
       linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
+  coordinates:
+    lat: 19.0760
+    lng: 72.8777
