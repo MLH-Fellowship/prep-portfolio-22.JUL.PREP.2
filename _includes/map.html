@@ -28,12 +28,11 @@ function initMap() {
         console.log(fellow);
         const marker = new google.maps.Marker({
         position: new google.maps.LatLng(fellow.coordinates.lat, fellow.coordinates.lng),
-        title:"hello",
         map: map,
         icon: icon
         });
         marker.setMap(map);
-        const contentString=`<div>${fellow.name}<div>`
+        const contentString=`<div><a href=${fellow.url}><h3>${fellow.name}</h3></a><br>${fellow.location}</div>`
     
             const infowindow = new google.maps.InfoWindow({
             content: contentString,
