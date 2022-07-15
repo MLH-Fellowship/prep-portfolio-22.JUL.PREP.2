@@ -12,7 +12,7 @@
           {% for author in item.authors %}
           {% assign user = site.data.fellows | find: "username", {author} %}
           <a class="d-inline-block" tabindex="0" data-toggle="tooltip" title="{{user.name}}" href="{{user.url}}">
-            <img class="avatar" src="{{user.img}}" />
+            <img class="avatar" src="/assets/img/{{user.img}}" />
             <!-- <small class="authors">{{user.name}}</small> -->
           </a>
           {% endfor %}
