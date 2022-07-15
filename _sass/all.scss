@@ -4,8 +4,8 @@
 @import "profile";
 @import "page";
 @import "footer";
-@import 'blog';
-@import 'blog-list';
+@import "blog";
+@import "blog-list";
 
 html {
   scroll-behavior: smooth;
@@ -56,7 +56,7 @@ h2 {
   font-size: 1.2em;
 }
 
-.card:hover{
+.card:hover {
   background-color: #cacbcc82;
   transition: 1s;
 }
@@ -167,18 +167,27 @@ $avatar-size: 20px;
   height: 100vh;
   width: 100%;
   position: fixed;
-  background: #133667 url(/assets/img/preloader-image.gif) no-repeat center center;
+  background: #133667 url(/assets/img/preloader-image.gif) no-repeat center
+    center;
   z-index: 4000;
   transition: 1s ease;
 }
 
 #to-top-button {
-  display: none;
+  padding: 0.75rem;
   position: fixed;
-  background-color: blue;
   bottom: 30px;
   right: 30px;
-  font-size: 30px;
+  font-size: 20px;
+  background-color: #133667;
+  border: 1px solid white;
+  color: white;
+  border-radius: 15px;
   z-index: 1500;
-  // change css
+  transition: all 250ms ease-in-out;
+
+  &:hover,
+  &:focus {
+    border-radius: 8px;
+  }
 }

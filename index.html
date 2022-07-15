@@ -3,47 +3,40 @@
 
 <!DOCTYPE html>
 <html lang="en">
-{% include header.html %}
+  {% include header.html %}
 
-<body>
+  <body>
     <div id="preloader"></div>
     <button id="to-top-button">&#8593;</button>
 
-    {% include navbar.html %}
-
-    {% include profile.html %}
-
-    {% include description.html %}
-
-    {% include projects.html %}
-
-    {% include blogs.html %}
-    
-    {% include footer.html %}
-</body>
-<script>
+    {% include navbar.html %} {% include profile.html %} {% include
+    description.html %} {% include projects.html %} {% include blogs.html %} {%
+    include footer.html %}
+  </body>
+  <script>
     $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-    })
-
-    // for preloader
-    let preloader = document.getElementById("preloader");
-    window.addEventListener("load", () => {
-        preloader.style.opacity = 0;
-        preloader.style.pointerEvents = "none";
+      $('[data-toggle="tooltip"]').tooltip();
     });
 
-    // for scroll-to-top
+    // Preloading animation
+    let preloader = document.getElementById("preloader");
+    window.addEventListener("load", () => {
+      preloader.style.opacity = 0;
+      preloader.style.pointerEvents = "none";
+    });
+
+    // Scroll to Top Button
     let toTopButton = document.getElementById("to-top-button");
     window.onscroll = () => {
-        toTopButton.style.display = document.body.scrollTop > 200 || document.documentElement.scrollTop > 200 ? "block" : "none";
-    }
+      toTopButton.style.display =
+        document.body.scrollTop > 200 ||
+        document.documentElement.scrollTop > 200
+          ? "block"
+          : "none";
+    };
     toTopButton.onclick = () => {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
-    
-</script>
-
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    };
+  </script>
 </html>
-
