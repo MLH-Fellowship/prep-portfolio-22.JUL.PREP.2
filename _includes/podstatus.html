@@ -25,67 +25,6 @@
 <script>
 
     let vara = -1; 
-
-    // let fellows = [
-    //     {
-    //         "team" : 1,
-    //         "name1" : "Shivam Jha",
-    //         "username1" : "jhashivam-2001",
-    //         "name2" : "Abdulwasiu Apalowo",
-    //         "username2" : "mrbazzan",
-    //         "name3" : "Tiffany Pan",
-    //         "username3" : "tiffany-pann",
-    //         "PRs" : 0
-    //     },
-    //     {
-    //         "team": 2,
-    //         "name1" : "Hetvi Soni",
-    //         "name2" : "Arunima Chaudhuri",
-    //         "username2" : "tinniaru3005",
-    //         "username1" : "HetviSoni",
-    //         "PRs" : 0
-    //     },
-    //     {
-    //         "team" : 3,
-    //         "name1" : "Ruchita Gosavi",
-    //         "username1" : "Ruchita1010",
-    //         "name2" : "Sahiba Khan",
-    //         "username2" : "sahibardj",
-    //         "PRs" : 0
-    //     },
-    //     {
-    //         "team" : 4,
-    //         "name1" : "Krisha Adeshara",
-    //         "name2": "Ishita Kapoor",
-    //         "username1" : "Krishi-02",
-    //         "username2": "ishitakapoor26",
-    //         "PRs" : 0
-    //     },
-    //     {
-    //         "team" : 5,
-    //         "name1" : "Sai Pravallika Myneni",
-    //         "username1" : "Pravallika-Myneni",
-    //         "name2" : "Shofiya Bootwala",
-    //         "username2" : "Shofiya2003",
-    //         "PRs" : 0
-    //     },
-    //     {
-    //         "team" : 6,
-    //         "name1" : "Akhilesh Manda",
-    //         "username1" : "AkhileshManda",
-    //         "name2" : "Arpit Bhalla",
-    //         "username2" : "arpitbhalla",
-    //         "PRs" : 0
-    //     },
-    //     {
-    //         "team" : 7,
-    //         "name1" : "Kaushal Joshi",
-    //         "username1" : "joshi-kaushal",
-    //         "name2" : "Reeju Bhattacharya",
-    //         "username2" : "reejuBhattacharya",
-    //         "PRs" : 0
-    //     }
-    // ]
     
     let members = [
         "jhashivam-2001",
@@ -104,6 +43,8 @@
         "joshi-kaushal",
         "reejuBhattacharya"
     ]
+
+
     // Team 1 -> 0, 1, 2 
     // Team 2 -> 3, 4 
     // Team 3 -> 5, 6 
@@ -115,15 +56,13 @@
     var team_scores = { Team_1: 0, Team_2: 0, Team_3: 0, Team_4: 0 , Team_5: 0, Team_6: 0, Team_7: 0};
 
     async function getApi(url) {
-  // Storing response
-  const response = await fetch(url);
-
-  // Storing data in form of JSON
-  var data = await response.json();
-  renderData(data);
+      // getting the date from api as response
+    const response = await fetch(url);
+    var data = await response.json();
+    renderData(data);
 }
 
-// Calling that async function
+
 getApi("https://api.github.com/repos/MLH-Fellowship/prep-portfolio-22.JUL.PREP.2/pulls?state=closed&per_page=100");
 
 function renderData(data) {
