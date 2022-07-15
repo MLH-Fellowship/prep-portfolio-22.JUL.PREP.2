@@ -3,6 +3,9 @@
 @import "navbar";
 @import "profile";
 @import "page";
+@import "footer";
+@import 'blog';
+@import 'blog-list';
 
 
 html {
@@ -38,7 +41,7 @@ body {
 }
 h2 {
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 51px;
   font-weight: 700;
   text-align: center;
 }
@@ -54,8 +57,14 @@ h2 {
   font-size: 1.2em;
 }
 
+.card:hover{
+  background-color: #cacbcc82;
+  transition: 1s;
+}
+
 a {
   color: black;
+  padding: 0.2em;
 }
 
 .info {
@@ -154,3 +163,4 @@ $avatar-size: 20px;
   color: rgb(255, 255, 255);
   font-weight: 500;
 }
+

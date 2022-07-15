@@ -8,9 +8,6 @@
     lng: 2.2074741
     
     
-  
-
-
 
 - name: Arpit Bhalla
   img: mlh.jpg
@@ -37,7 +34,20 @@
   social:
   title: Aaron
   url: http://google.fr
+  location: Delhi
   coordinates:
-    lat: 40.4378698
-    lng: -3.8196204
+    lat: 28.7041
+    lng: 77.1025
   
+- name: Kaushal
+  username: kaushal
+  img: KaushalJoshi.png
+  location: Mumbai, India
+  url: https://kaushaljoshi.vercel.app/
+  social:
+      twitter: https://twitter.com/clumsy_coder
+      github: https://github.com/joshi-kaushal
+      linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
+  coordinates:
+    lat: 19.0760
+    lng: 72.8777
