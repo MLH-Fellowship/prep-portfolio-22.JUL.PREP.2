@@ -162,6 +162,141 @@ hr {
     background-color: #000204;
 }
 
+.contain{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+    
+    
+  }
+  
+  /* @keyframes animateSectionBackground {
+    00%, 36% { background-image: url(assets\img\0_tVfyU9ekMrUkhkvb.jpg); }
+    37%, 63% { background-image: url(assets/img/612f90cfea72f6ee37f5472c_Learn-wallpaper-Main.jpg); }
+    64%, 99% { background-image: url(assets/img/Did-someone-say-new-workshop_-1200x520.png); }
+  } */
+  
+  table{
+    padding: 40px 50px 50px 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    // border-collapse: separate;
+    // border: 1px solid black;
+    // border-radius: 15px;
+    background-color: white;
+    width: 56%;
+    height: 450px;
+    box-shadow: 8px 8px 3px yellow;
+  }
+  
+    tr, td{
+    padding: 29px 15px 29px 21px;
+    // margin: 0px 8px 0px 8px;
+  }
+  
+  tr{
+    line-height: 3px !important;
+  }
 
+  tr:nth-child(even){
+    background-color: rgb(216, 216, 216);
+  }
 
+  td{
+    color: #022c67;
+    font-weight: 700;
+  }
+
+  th{
+    padding: 33px 5px 29px 18px;
+  }
+
+  .score{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+ }
+
+  .bgimg{
+    background-image: linear-gradient(50deg, rgba(4, 12, 119, 0.271),rgba(9, 28, 92, 0.348)),url("https://campusrec.unc.edu/wp-content/uploads/2020/11/Student-Staff-Celebration-2020-Horizontal-.png");
+    /* height: 100%;
+    width: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50rem;
+  }
+
+  .leaderboard{
+    padding-top: 68px;
+    color: white;
+    font-size: 30px;
+  }
+
+ .after_img{
+    position: absolute;
+    top: 66%;
+    left: 71%;
+    z-index: 2;
+ }
+
+ .div_img{
+    height: 225px !important;
+    width: 262px !important;
+ }
+
+ @media (min-width:287px) and (max-width:420px) {
+    .div_img{
+        height: 96px !important;
+    width: 79px !important;
+    }
+    .after_img{
+        top: 77%;
+        left: 71%;
+    } 
+ }
+
+ @media (min-width:421px) and (max-width:627px) {
+    .div_img{
+        height: 115px !important;
+    width: 101px !important;
+    }
+    .after_img{
+        top: 77%;
+        left: 67%;
+    } 
+ }
+ @media (min-width:628px) and (max-width:987px) {
+    .div_img{
+        height: 148px !important;
+    width: 131px !important;
+    }
+    .after_img{
+    top: 76%;
+    left: 68%;
+    } 
+ }
+ @media (min-width:987px) and (max-width: 1316px) {
+    .div_img{
+        height: 148px !important;
+    width: 131px !important;
+    }
+    .after_img{
+        top: 75%;
+        left: 71%;
+    } 
+ }
+ @media (min-width:1317px) {
+    .div_img{
+        height: 148px !important;
+    width: 131px !important;
+    }
+    .after_img{
+        top: 75%;
+    left: 73%;
+    } 
+ }
 
