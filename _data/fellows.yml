@@ -29,7 +29,7 @@
 
 - name: Akhilesh
   username: AkhileshManda
-  img: swift.jpg
+  img: AkhileshManda.jpg
   url: https://github.com/AkhileshManda
   social:
   title: Aaron
@@ -41,7 +41,7 @@
   
 - name: Kaushal
   username: kaushal
-  img: KaushalJoshi.png
+  img: swift.jpg
   location: Mumbai, India
   url: https://kaushaljoshi.vercel.app/
   social:
