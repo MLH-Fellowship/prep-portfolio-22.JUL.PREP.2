@@ -7,11 +7,13 @@
     <div class="container swiper mySwiper">
       <div class="swiper-wrapper">
         {% for item in site.data.fellows %}
-        <div class="card swiper-slide">
+        <div class="profile-card swiper-slide">
           <div class="content">
             <div class="front">
-              <img class="profile-image" width="100%" src="{{ item.img }}">
-              <h2>{{ item.name }}</h2>
+              <div id="img-container">
+                <img class="profile-image" width="100%" src="{{ item.img }}">
+              </div>
+              <h2 class="fellow-name">{{ item.name }}</h2>
             </div>
             <div class="back from-left">
               <h2 class="fellow-name">{{ item.name }}</h2>
