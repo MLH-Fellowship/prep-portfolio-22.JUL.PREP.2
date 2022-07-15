@@ -1,3 +1,20 @@
+- name: Sahiba Khan
+  img: assets/img/sahiba.png
+  birth_date: 11 July
+  location: Agra, India
+  school: G L Bajaj
+  tech_skills: Go, C++, SQL
+  hobbies: writing
+  bio: Heyya, I'm Sahiba a software engineer driven by solving real world problems and making a tangible change.
+  url: https://github.com/sahibardj
+  social:
+    twitter: https://twitter.com/
+    github: https://github.com/sahibardj
+    linkedin: https://www.linkedin.com/in/sahiba-khan-rdj/
+  coordinates:
+    lat: 27
+    lng: 78
+
 - name: Akhilesh
   username: /assets/img/AkhileshManda
   img: AkhileshManda.jpg
