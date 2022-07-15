@@ -1,6 +1,5 @@
 - name: Sahiba Khan
   img: assets/img/sahiba.png
-  username: sahibardj
   birth_date: 11 July
   location: Agra, India
   school: G L Bajaj
@@ -8,35 +7,59 @@
   hobbies: writing
   bio: Heyya, I'm Sahiba a software engineer driven by solving real world problems and making a tangible change.
   url: https://github.com/sahibardj
-  twitter: https://twitter.com/
-  github: https://github.com/sahibardj
-  linkedin: https://www.linkedin.com/in/sahiba-khan-rdj/
+  social:
+    twitter: https://twitter.com/
+    github: https://github.com/sahibardj
+    linkedin: https://www.linkedin.com/in/sahiba-khan-rdj/
   coordinates:
     lat: 27
     lng: 78
 
+- name: Amanda
+  img: amanda.jpg
+  location: New York City, USA
+
+- name: Aaron
+  img: aaron.jpg
+  location: London, UK
+
+- name: Swift
+  img: swift.jpg
+  location: New York City, USA
+
+- name: Arpit Bhalla
+  img: mlh.jpg
+  username: arpitBhalla
+  location: New York City, USA
+  url: https://github.com/arpitbhalla
+  social:
+    twitter: arpit
+    github: arpit
+    linkedin: arpit
+
 - name: Akhilesh
   username: AkhileshManda
-  img: /assets/img/AkhileshManda.jpg
+  img: AkhileshManda.jpg
   location: Bengaluru, IN
   url: https://github.com/AkhileshManda
-  twitter: https://twitter.com/Akhiles63114004
-  github: https://github.com/AkhileshManda
-  linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
+  social:
+    twitter: https://twitter.com/Akhiles63114004
+    github: https://github.com/AkhileshManda
+    linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
 
 - name: Kaushal
   username: kaushal
-  img: /assets/img/KaushalJoshi.png
+  img: KaushalJoshi.png
   location: Mumbai, India
   url: https://kaushaljoshi.vercel.app/
-  twitter: https://twitter.com/clumsy_coder
-  github: https://github.com/joshi-kaushal
-  linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
+  social:
+    twitter: https://twitter.com/clumsy_coder
+    github: https://github.com/joshi-kaushal
+    linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
 
 - name: Reeju Bhattacharya
-  img: /assets/img/reeju.jpg
+  image: reeju.jpg
   birth_date: May 27, 2002
-  username: reejuBhattacharya
   city: Howrah
   school: IIEST Shibpur
   tech_skills: Java, Android(Kotlin)
@@ -49,25 +72,8 @@
     lat: 22.577230
     long: 88.317790
 
-- name: Arpit Bhalla
-  img: https://avatars.githubusercontent.com/u/55053424?v=4
-  username: arpitBhalla
-  location: Kuruksehtra, India
-  url: https://arpitbhalla.github.io/
-  birth_date: Sep
-  city: Kuruksehtra
-  school: NIT Kuruksehtra
-  tech_skills: Typescript, GoLang, Rust
-  twitter: https://twitter.com/arpitbhalla_
-  github: https://github.com/arpitbhalla
-  linkedin: https://www.linkedin.com/in/arpitbhalla
-  bio: An aspiring Engineer interested in contributing to the world through Open Source Softwares. Currently co-maintaining most popular React Native library for UI, React Native Elements.
-  coordinates:
-    lat: 29.9430339
-    long: 76.8151131
-
 - name: Arunima Chaudhuri
-  image: assets/img/Arunima.jpg
+  image: Arunima.jpg
   birth_date: May 30th, 2001
   city: Kolkata
   school: Government College of Engineering and Ceramic Technology
@@ -80,3 +86,20 @@
   coordinates:
     lat: 22
     lng: 88
+
+- name: Arpit Bhalla
+  img: arpit.jpeg
+  username: arpitBhalla
+  location: Kuruksehtra, India
+  url: https://arpitbhalla.github.io/
+  birth_date: Sep 2001
+  city: Kuruksehtra
+  school: NIT Kuruksehtra
+  tech_skills: Typescript, GoLang, Rust
+  twitter: https://twitter.com/arpitbhalla_
+  github: https://github.com/arpitbhalla
+  linkedin: https://www.linkedin.com/in/arpitbhalla
+  bio: An aspiring Engineer interested in contributing to the world through Open Source Softwares. Currently co-maintaining most popular React Native library for UI, React Native Elements.
+  coordinates:
+    lat: 29.9430339
+    long: 76.8151131
