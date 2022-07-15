@@ -1,0 +1,30 @@
+---
+layout: page
+---
+
+<section id="profile">
+    <h2>Meet the person</h2>
+    <div class="card-container">
+      <div id="{{ page.fellow }}" class="card card-pod">
+          <div class="info">
+              <p class="title"> {{ page.title }}</p>
+              <p class="location"> {{ page.school }}</p>
+              <img src="/assets/img/{{page.image}}"></img>
+              <p> {{ page.birth_date }}</p>
+              <p> {{ page.city }}</p>
+              <p> {{ page.school }}</p>
+              <p> {{ page.tech_skills }}</p>
+              <p> {{ page.hobbies }}</p>
+              <p> {{ page.github }}</p>
+              <p> {{ page.linkedin }}</p>
+              <p> {{ page.twitter }}</p>
+              <p> {{ page.languages }}</p>
+          </div>
+      </div>
+      <div>
+           {{ page.bio }}
+           {{ content }}
+      </div>
+    </div>
+</section>
+
