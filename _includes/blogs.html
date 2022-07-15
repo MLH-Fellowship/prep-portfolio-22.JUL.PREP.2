@@ -1,0 +1,16 @@
+<!-- The blogs section on the homepage -->
+<h2 id="blog">Blogs</h2>
+<div class="card-container blog-container">
+  {% for post in site.posts limit:4 %}
+  <a href="{{post.url}}" class="blog-link">
+    <div class="card blog-card">
+      <div class="info">
+        <p class="title">{{ post.title }}</p>
+        <p class="author">{{ post.author }}</p>
+        <p class="dates">{{ post.date | date_to_long_string }}</p>
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+<a href="/blog-list/" id="see-more-link" class="blogs_see-more">Read More Blogs</a>
