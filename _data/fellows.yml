@@ -1,51 +1,23 @@
-- name: Will
-  img: logo.jpg
-  location: London, UK
-
-- name: Amanda
-  img: amanda.jpg
-  location: New York City, USA
-
-- name: Aaron
-  img: aaron.jpg
-  location: London, UK
-
-- name: Swift
-  img: swift.jpg
-  location: New York City, USA
-
-- name: Arpit Bhalla
-  img: https://avatars.githubusercontent.com/u/55053424?v=4
-  username: arpitBhalla
-  location: Kuruksehtra, India
-  url: https://arpitbhalla.github.io/
-  social:
-    twitter: https://twitter.com/arpitbhalla_
-    github: https://github.com/arpitbhalla
-    linkedin: https://www.linkedin.com/in/arpitbhalla
-
 - name: Akhilesh
-  username: AkhileshManda
+  username: /assets/img/AkhileshManda
   img: AkhileshManda.jpg
   location: Bengaluru, IN
   url: https://github.com/AkhileshManda
-  social:
-    twitter: https://twitter.com/Akhiles63114004
-    github: https://github.com/AkhileshManda
-    linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
+  twitter: https://twitter.com/Akhiles63114004
+  github: https://github.com/AkhileshManda
+  linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
 
 - name: Kaushal
   username: kaushal
-  img: KaushalJoshi.png
+  img: /assets/img/KaushalJoshi.png
   location: Mumbai, India
   url: https://kaushaljoshi.vercel.app/
-  social:
-    twitter: https://twitter.com/clumsy_coder
-    github: https://github.com/joshi-kaushal
-    linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
+  twitter: https://twitter.com/clumsy_coder
+  github: https://github.com/joshi-kaushal
+  linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
 
 - name: Reeju Bhattacharya
-  image: reeju.jpg
+  image: /assets/img/reeju.jpg
   birth_date: May 27, 2002
   city: Howrah
   school: IIEST Shibpur
@@ -58,3 +30,20 @@
   coordinates:
     lat: 22.577230
     long: 88.317790
+
+- name: Arpit Bhalla
+  img: https://avatars.githubusercontent.com/u/55053424?v=4
+  username: arpitBhalla
+  location: Kuruksehtra, India
+  url: https://arpitbhalla.github.io/
+  birth_date: Sep
+  city: Kuruksehtra
+  school: NIT Kuruksehtra
+  tech_skills: Typescript, GoLang, Rust
+  twitter: https://twitter.com/arpitbhalla_
+  github: https://github.com/arpitbhalla
+  linkedin: https://www.linkedin.com/in/arpitbhalla
+  bio: An aspiring Engineer interested in contributing to the world through Open Source Softwares. Currently co-maintaining most popular React Native library for UI, React Native Elements.
+  coordinates:
+    lat: 29.9430339
+    long: 76.8151131
