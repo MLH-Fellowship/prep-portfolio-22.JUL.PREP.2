@@ -1,0 +1,201 @@
+
+<div class="bgimg">
+    <div align="center">
+        <h2 class="leaderboard">LeaderBoard</h2>
+    </div>
+    <div class="score">
+        <table class="tab" align="center">
+        <thead>
+            <tr style="line-height: 1px; border-bottom:2px solid black">
+                <th>Rank</th>
+                <th>Team</th>
+                <th>PRs</th>
+            </tr>
+        </thead>
+        <tbody id="tableData"></tbody>
+        </table>
+    
+    </div>
+    <div class="after_img">
+        <img class="div_img" src="https://uploads-ssl.webflow.com/6283bb8d1fab6d4f7492e482/6287e2fc8823ccf281dad963_deco-chip-char.png">
+    </div>
+
+    </div>
+
+<script>
+
+    let vara = -1; 
+
+    // let fellows = [
+    //     {
+    //         "team" : 1,
+    //         "name1" : "Shivam Jha",
+    //         "username1" : "jhashivam-2001",
+    //         "name2" : "Abdulwasiu Apalowo",
+    //         "username2" : "mrbazzan",
+    //         "name3" : "Tiffany Pan",
+    //         "username3" : "tiffany-pann",
+    //         "PRs" : 0
+    //     },
+    //     {
+    //         "team": 2,
+    //         "name1" : "Hetvi Soni",
+    //         "name2" : "Arunima Chaudhuri",
+    //         "username2" : "tinniaru3005",
+    //         "username1" : "HetviSoni",
+    //         "PRs" : 0
+    //     },
+    //     {
+    //         "team" : 3,
+    //         "name1" : "Ruchita Gosavi",
+    //         "username1" : "Ruchita1010",
+    //         "name2" : "Sahiba Khan",
+    //         "username2" : "sahibardj",
+    //         "PRs" : 0
+    //     },
+    //     {
+    //         "team" : 4,
+    //         "name1" : "Krisha Adeshara",
+    //         "name2": "Ishita Kapoor",
+    //         "username1" : "Krishi-02",
+    //         "username2": "ishitakapoor26",
+    //         "PRs" : 0
+    //     },
+    //     {
+    //         "team" : 5,
+    //         "name1" : "Sai Pravallika Myneni",
+    //         "username1" : "Pravallika-Myneni",
+    //         "name2" : "Shofiya Bootwala",
+    //         "username2" : "Shofiya2003",
+    //         "PRs" : 0
+    //     },
+    //     {
+    //         "team" : 6,
+    //         "name1" : "Akhilesh Manda",
+    //         "username1" : "AkhileshManda",
+    //         "name2" : "Arpit Bhalla",
+    //         "username2" : "arpitbhalla",
+    //         "PRs" : 0
+    //     },
+    //     {
+    //         "team" : 7,
+    //         "name1" : "Kaushal Joshi",
+    //         "username1" : "joshi-kaushal",
+    //         "name2" : "Reeju Bhattacharya",
+    //         "username2" : "reejuBhattacharya",
+    //         "PRs" : 0
+    //     }
+    // ]
+    
+    let members = [
+        "jhashivam-2001",
+        "mrbazzan",
+        "tiffany-pann",
+        "tinniaru3005",
+        "HetviSoni",
+        "Ruchita1010",
+        "sahibardj",
+        "Krishi-02",
+        "ishitakapoor26",
+        "Pravallika-Myneni",
+        "Shofiya2003",
+        "AkhileshManda",
+        "arpitbhalla",
+        "joshi-kaushal",
+        "reejuBhattacharya"
+    ]
+    // Team 1 -> 0, 1, 2 
+    // Team 2 -> 3, 4 
+    // Team 3 -> 5, 6 
+    // Team 4 -> 7, 8 
+    // Team 5 -> 9, 10 
+    // Team 6 -> 11, 12 
+    // Team 7 -> 13, 14
+    
+    var team_scores = { Team_1: 0, Team_2: 0, Team_3: 0, Team_4: 0 , Team_5: 0, Team_6: 0, Team_7: 0};
+
+    async function getApi(url) {
+  // Storing response
+  const response = await fetch(url);
+
+  // Storing data in form of JSON
+  var data = await response.json();
+  renderData(data);
+}
+
+// Calling that async function
+getApi("https://api.github.com/repos/MLH-Fellowship/prep-portfolio-22.JUL.PREP.2/pulls?state=closed&per_page=100");
+
+function renderData(data) {
+  var pr_count = {};
+  pr_data = data;
+
+  // iterating above all the available PRs.
+  for (let i = 0; i < pr_data.length; i++) {
+    if (pr_data[i]["merged_at"] !== null) {
+
+      if (pr_count[pr_data[i]["user"]["login"]]) {
+        pr_count[pr_data[i]["user"]["login"]] += 1;
+      } else {
+        pr_count[pr_data[i]["user"]["login"]] = 1;
+      }
+    }
+  }
+  updateTeamScores(pr_count);
+}
+
+function updateTeamScores(pr_commits_map) {
+  // Creating Team Score based on PRs of each member.
+  for (var key in pr_commits_map) {
+    username = key;
+    prs_merged = pr_commits_map[key];
+
+    for (let i = 0; i < members.length; i++) {
+      if (members[i] === username) {
+        if (i < 3) {
+          team_scores["Team_1"] += prs_merged;
+        } else if (i < 5) {
+          team_scores["Team_2"] += prs_merged;
+        } else if (i < 7) {
+          team_scores["Team_3"] += prs_merged;
+        } else if (i < 9) {
+          team_scores["Team_4"] += prs_merged;
+        } else if(i < 11){
+          team_scores["Team_5"] += prs_merged;
+        } else if(i < 13){
+            team_scores["Team_6"] += prs_merged;
+        } else if(i < 15){
+            team_scores["Team_7"] += prs_merged;
+        }
+      }
+    }
+  }
+  var sortable = [];
+  for (var team in team_scores) {
+    sortable.push([team, team_scores[team]]);
+  }
+  sortable.sort(function (a, b) {
+    return b[1] - a[1];
+  });
+
+  // passing the data to HTML
+  showStat(sortable);
+}
+
+function showStat(team_scores){
+    const par = document.getElementById("tableData");
+
+    for(let i = 0; i < team_scores.length; i++){
+        var tableRow = document.createElement("tr");
+        var rank = document.createElement("td");
+        rank.innerHTML = i + 1;
+        var teamName = document.createElement("td");
+        teamName.innerHTML = team_scores[i][0];
+        var count = document.createElement("td");
+        count.innerHTML = team_scores[i][1];
+        tableRow.append(rank, teamName, count);
+        par.append(tableRow);
+    }
+};
+</script>
+
