@@ -57,7 +57,7 @@ h2 {
   font-size: 1.2em;
 }
 
-.card:hover{
+.card:hover {
   background-color: #cacbcc82;
   transition: 1s;
 }
@@ -164,3 +164,35 @@ $avatar-size: 20px;
   font-weight: 500;
 }
 
+#preloader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 4000;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background: #133667;
+  transition: all 2s ease-in-out;
+}
+
+#preloader img,
+#preloader h2 {
+  animation: preloader 4s normal;
+}
+
+#preloader h2 {
+  font-size: 2rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+@keyframes preloader {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
