@@ -14,7 +14,7 @@ body[data-theme="dark"] {
   div,
   h1,
   h2,
-  a {
+  a:not(nav a) {
     color: white !important;
   }
   .card {
