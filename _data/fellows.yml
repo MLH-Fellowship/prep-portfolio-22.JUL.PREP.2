@@ -1,5 +1,5 @@
 - name: Sahiba Khan
-  img: assets/img/sahiba.png
+  image: sahiba.png
   birth_date: 11 July 
   location: Agra, India
   school: G L Bajaj
@@ -17,19 +17,19 @@
 
 
 - name: Amanda
-  img: assets/img/amanda.jpg
+  image: amanda.jpg
   location: New York City, USA
 
 - name: Aaron
-  img: assets/img/aaron.jpg
+  image: aaron.jpg
   location: London, UK
 
 - name: Swift
-  img: assets/img/swift.jpg
+  image: swift.jpg
   location: New York City, USA
 
 - name: Arpit Bhalla
-  img: assets/img/mlh.jpg
+  image: /mlh.jpg
   username: arpitBhalla
   location: New York City, USA
   url: https://github.com/arpitbhalla
@@ -41,7 +41,7 @@
 
 - name: Akhilesh
   username: AkhileshManda
-  img: assets/img/AkhileshManda.jpg
+  image: AkhileshManda.jpg
   location: Bengaluru, IN
   url: https://github.com/AkhileshManda
   social:
@@ -51,7 +51,7 @@
   
 - name: Kaushal
   username: kaushal
-  img: assets/img/KaushalJoshi.png
+  image: KaushalJoshi.png
   location: Mumbai, India
   url: https://kaushaljoshi.vercel.app/
   social:
