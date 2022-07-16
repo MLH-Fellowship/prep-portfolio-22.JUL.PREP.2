@@ -1,7 +1,7 @@
 ---
 layout: user
 title: Tiffany Pan
-image: tiffany.jpg
+image: amanda.jpg
 birth_date: April 1st, 2003
 city: New York City
 school: Cornell University
