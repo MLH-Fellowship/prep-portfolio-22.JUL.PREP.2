@@ -5,17 +5,32 @@
 <html lang="en">
   {% include header.html %}
 
-  <body>
-    <div id="preloader"></div>
+<body data-spy="scroll" data-target="#nav-bar" data-offset="140">
+    <div id="preloader">
+      <img src="/assets/img/jagurar.png" alt="Preloader" />
+      <h2>Javascript Jaguars</h2>
+    </div>
     <button id="to-top-button">&#8593;</button>
+    
+    {% include navbar.html %}
 
-    {% include navbar.html %} {% include profile.html %} {% include
-    description.html %} {% include projects.html %} {% include blogs.html %} {%
-    include footer.html %}
-  </body>
-  <script>
+    {% include profile.html %}
+
+    {% include description.html %}
+
+    {% include podstatus.html %}
+
+    {% include projects.html %}
+
+    {% include blogs.html %}
+
+    {% include footer.html %}
+
+</body>
+<script src="./assets/script/theme.js"></script>
+<script>
     $(function () {
-      $('[data-toggle="tooltip"]').tooltip();
+        $('[data-toggle="tooltip"]').tooltip()
     });
 
     // Preloading animation
