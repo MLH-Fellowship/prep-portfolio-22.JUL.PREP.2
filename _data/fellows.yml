@@ -1,7 +1,7 @@
 - name: Sahiba Khan
   image: sahiba.png
   birth_date: 11 July 
-  location: Agra, India
+  city: Agra, India
   school: G L Bajaj
   tech_skills: Go, C++, SQL
   hobbies: writing
@@ -18,20 +18,20 @@
 
 - name: Amanda
   image: amanda.jpg
-  location: New York City, USA
+  city: New York City, USA
 
 - name: Aaron
   image: aaron.jpg
-  location: London, UK
+  city: London, UK
 
 - name: Swift
   image: swift.jpg
-  location: New York City, USA
+  city: New York City, USA
 
 - name: Arpit Bhalla
   image: /mlh.jpg
   username: arpitBhalla
-  location: New York City, USA
+  city: New York City, USA
   url: https://github.com/arpitbhalla
   social:
     twitter: arpit
@@ -42,7 +42,7 @@
 - name: Akhilesh
   username: AkhileshManda
   image: AkhileshManda.jpg
-  location: Bengaluru, IN
+  city: Bengaluru, IN
   url: https://github.com/AkhileshManda
   social:
       twitter: https://twitter.com/Akhiles63114004
@@ -52,7 +52,7 @@
 - name: Kaushal
   username: kaushal
   image: KaushalJoshi.png
-  location: Mumbai, India
+  city: Mumbai, India
   url: https://kaushaljoshi.vercel.app/
   social:
       twitter: https://twitter.com/clumsy_coder
