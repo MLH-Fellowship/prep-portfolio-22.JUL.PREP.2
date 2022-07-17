@@ -15,17 +15,6 @@
       lat: 27
       lng: 78
 
-- name: Amanda
-  img: amanda.jpg
-  location: New York City, USA
-
-- name: Aaron
-  img: aaron.jpg
-  location: London, UK
-
-- name: Swift
-  img: swift.jpg
-  location: New York City, USA
 
 - name: Arpit Bhalla
   img: mlh.jpg

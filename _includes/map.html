@@ -1,7 +1,7 @@
 
 <h1 class="map-header">Map</h1>
 <div id="map" ></div>
-<h1>Map</h1>
+
 
 <script>
 
@@ -20,37 +20,39 @@ function initMap() {
 
         let icon={
             url: `/assets/img/${fellow.image}`,
-            size: new google.maps.Size(71, 71),
+            size: new google.maps.Size(50, 50),
             origin: new google.maps.Point(0, 0),
             anchor: new google.maps.Point(17, 34),
-            scaledSize: new google.maps.Size(40, 40)
+            scaledSize: new google.maps.Size(30, 30)
         }
         console.log(icon);
         console.log(fellow);
-        const marker = new google.maps.Marker({
-        position: new google.maps.LatLng(fellow.coordinates.lat, fellow.coordinates.lng),
-        title:"hello",
-        map: map,
-        icon: icon
-        });
-        marker.setMap(map);
-        const contentString=`<div>${fellow.name}<div>`
-    
-            const infowindow = new google.maps.InfoWindow({
-            content: contentString,
-        });
-
-        marker.addListener("click", () => {
-            infowindow.open({
-            anchor: marker,
-            map,
-            shouldFocus: false,
+        if(fellow.coordinates){
+            const marker = new google.maps.Marker({
+            position: new google.maps.LatLng(fellow.coordinates.lat, fellow.coordinates.lng),
+            title: fellow.name,
+            map: map,
+            icon: icon
             });
-        });
+            marker.setMap(map);
+            const contentString=`<div>${fellow.name}<div>`
+        
+                const infowindow = new google.maps.InfoWindow({
+                content: contentString,
+            });
+
+            marker.addListener("click", () => {
+                infowindow.open({
+                anchor: marker,
+                map,
+                shouldFocus: false,
+                });
+            });
+        }
+        
     });
 }
     
-  
   window.initMap = initMap;
 </script>
 <script
