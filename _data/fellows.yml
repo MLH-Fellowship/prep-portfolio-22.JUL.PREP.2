@@ -1,7 +1,7 @@
 - name: Sahiba Khan
-  img: assets/img/sahiba.png
+  image: sahiba.png
   birth_date: 11 July 
-  location: Agra, India
+  city: Agra, India
   school: G L Bajaj
   tech_skills: Go, C++, SQL
   hobbies: writing
@@ -15,33 +15,23 @@
       lat: 27
       lng: 78
 
+
 - name: Amanda
-  img: amanda.jpg
-  location: New York City, USA
+  image: amanda.jpg
+  city: New York City, USA
 
 - name: Aaron
-  img: aaron.jpg
-  location: London, UK
+  image: aaron.jpg
+  city: London, UK
 
 - name: Swift
-  img: swift.jpg
-  location: New York City, USA
-
-- name: Arpit Bhalla
-  img: mlh.jpg
-  username: arpitBhalla
-  location: New York City, USA
-  url: https://github.com/arpitbhalla
-  social:
-    twitter: arpit
-    github: arpit
-    linkedin: arpit
-  
+  image: swift.jpg
+  city: New York City, USA
 
 - name: Akhilesh
   username: AkhileshManda
-  img: AkhileshManda.jpg
-  location: Bengaluru, IN
+  image: AkhileshManda.jpg
+  city: Bengaluru, IN
   url: https://github.com/AkhileshManda
   social:
       twitter: https://twitter.com/Akhiles63114004
@@ -49,15 +39,6 @@
       linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
   
 - name: Kaushal
-  username: kaushal
-  img: KaushalJoshi.png
-  location: Mumbai, India
-  url: https://kaushaljoshi.vercel.app/
-  social:
-      twitter: https://twitter.com/clumsy_coder
-      github: https://github.com/joshi-kaushal
-      linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
-
   image: kaushal.png
   user: clumsycoder
   birth_date: May 31st, 2002
@@ -103,7 +84,19 @@
      lat : 22
      lng: 88
 
-
+- name: Arpit Bhalla
+  image: arpit.jpeg
+  username: arpitBhalla
+  location: Kuruksehtra, India
+  url: https://arpitbhalla.github.io/
+  birth_date: Sep 2001
+  city: Kuruksehtra
+  school: NIT Kuruksehtra
+  tech_skills: Typescript, GoLang, Rust
+  twitter: https://twitter.com/arpitbhalla_
+  github: https://github.com/arpitbhalla
+  linkedin: https://www.linkedin.com/in/arpitbhalla
+  bio: An aspiring Engineer interested in contributing to the world through Open Source Softwares. Currently co-maintaining most popular React Native library for UI, React Native Elements.
 
 - name: Shofiya Bootwala
   image: shofiya.jpg
