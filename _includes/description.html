@@ -1,19 +1,78 @@
-<section id = "MeetThePod">
-    <h2>Meet the Pod</h2>
-    <div class="card-container" >
-    {% for item in site.data.fellows %}
-    <div class="card card-pod">
-	<a class="{{ item.page_name }}" href="/projects/user/{{item.page_name}}"></a>
-        <div class="info">
-            <p class="title"> {{ item.name }}</p>
-            <p class="location"> {{ item.location }}</p>
-            <a href="{{item.url}}" class="fab fa-lg fa-github" style="color:black;" target="_blank"></a>
-            <a href="{{item.social.linkedIn}}" class="fab fa-lg fa-linkedin" style="color:black;" target="_blank"></a>
-            <a href="{{item.social.twitter}}" class="fab fa-lg fa-twitter" style="color:black;" target="_blank"></a>
-            <a href="{{item.resume}}" class="fas fa-lg fa-file" style="color:black;" target="_blank"></a>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.css" />
+</head>
+<section id="MeetThePod">
+  <h2>Meet the Pod</h2>
+  <div class="pod">
+    <div class="container swiper mySwiper">
+      <div class="swiper-wrapper">
+        {% for item in site.data.fellows %}
+        <div class="profile-card swiper-slide">
+          <div class="content">
+            <div class="front">
+              <div id="img-container">
+                <img class="profile-image" width="100%" src="assets/img/{{ item.image }}">
+              </div>
+              <h2 class="fellow-name">{{ item.name }}</h2>
+            </div>
+            <div class="back from-left">
+              <p> {{ item.city }}</p>
+              <a href="{{item.url}}" class="fab fa-lg fa-github" target="_blank"></a>
+              <a href="{{item.social.linkedIn}}" class="fab fa-lg fa-linkedin" target="_blank"></a>
+              <a href="{{item.social.twitter}}" class="fab fa-lg fa-twitter" target="_blank"></a>
+              <a href="{{item.social.github}}" class="fab fa-lg fa-github" target="_blank"></a>
+            </div>
+          </div>
         </div>
+        {% endfor %}
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
     </div>
-    {% endfor %}
-    </div>
-    <script src="/assets/script/script.js"></script>
+  </div>
 </section>
+
+<!-- Swiper  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.min.js"></script>
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    observer: true,
+    observeParents: true,
+    slidesPerView: 4,
+    spaceBetween: 30,
+    slidesPerGroup: 4,
+    loop: true,
+    loopFillGroupWithBlank: false,
+    keyboard: {
+      enabled: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      0: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+      },
+      520: {
+          slidesPerView: 2,
+          slidesPerGroup: 2,
+      },
+      770: {
+          slidesPerView: 3,
+          slidesPerGroup: 3,
+      },
+      1024: {
+        slidesPerView: 4,
+        slidesPerGroup: 4,
+      }
+    },
+  });
+</script>

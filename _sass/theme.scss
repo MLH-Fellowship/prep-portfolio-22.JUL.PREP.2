@@ -21,6 +21,12 @@ body[data-theme="dark"] {
     background-color: $card-background;
     color: white;
   }
+  .pod .profile-card {
+    background-color: $background;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: white;
+  }
 }
 
 .color-mode {
