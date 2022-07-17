@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 32ae688d3cb7fa1528e0ca93c9004a538eb0cf82
 ---
 layout: post
 author: "Alice Good"
@@ -26,6 +29,7 @@ Donec eleifend fermentum eros id dictum. Donec tempor urna eget consectetur accu
 
 Curabitur ut imperdiet purus. Pellentesque hendrerit quis eros in malesuada.
 >>>>>>> b385d969b44c690af38299343f4caf2e58e64abb
+<<<<<<< HEAD
 =======
 ---
 layout: post
@@ -40,3 +44,5 @@ Donec eleifend fermentum eros id dictum. Donec tempor urna eget consectetur accu
 
 Curabitur ut imperdiet purus. Pellentesque hendrerit quis eros in malesuada.
 >>>>>>> c6a2910c10ec2ce32368d6f91d5752d9daccff44
+=======
+>>>>>>> 32ae688d3cb7fa1528e0ca93c9004a538eb0cf82

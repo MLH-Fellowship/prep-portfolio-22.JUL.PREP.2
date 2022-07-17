@@ -1,3 +1,4 @@
+
 - name: Sahiba Khan
   img: assets/img/sahiba.png
   birth_date: 11 July 
@@ -19,6 +20,17 @@
   img: amanda.jpg
   location: New York City, USA
 
+
+- name: Will
+  img: logo.jpg
+  title: Will
+  url: http://google.fr
+  location: spain
+  coordinates: 
+    lat: 48.8587741
+    lng: 2.2074741
+    
+  
 
 
 - name: Arpit Bhalla
@@ -49,6 +61,7 @@
   coordinates:
     lat: 40.4378698
     lng: -3.8196204
+
   
   img: AkhileshManda.jpg
   location: Bengaluru, IN
@@ -116,6 +129,21 @@
      lat : 22
      lng: 88
 
+
+- name: Sai Pravallika Myneni
+  image: pravallika.jpg
+  birth_date: March 17th, 2000
+  city: Vijayawada, India
+  school: Northwestern University
+  tech_skills: Python, Machine Learning, Data Science
+  hobbies: hackathon, making protein bars, watching movies and series, learning new languages
+  github: https://github.com/Pravallika-Myneni/
+  linkedin: https://www.linkedin.com/in/pravallika-myneni/
+  twitter: 
+  bio: Hola!! Pravallika here, an incoming AI grad at Northwestern University. My forte is Data Science/Artificial Intelligence. I mostly code in python and love exploring new data skills. I enjoy meeting people from around the world.  
+  coordinates:
+     lat : 16.5062
+     lng: 80.6480
 
 
 - name: Shofiya Bootwala
