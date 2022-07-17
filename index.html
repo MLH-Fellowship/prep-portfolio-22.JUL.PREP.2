@@ -1,5 +1,6 @@
 ---
 ---
+
 <!DOCTYPE html>
 <html lang="en">
   {% include header.html %}
@@ -18,23 +19,20 @@
     
     {% include map.html %}
 
+    {% include podstatus.html %}
+
     {% include projects.html %}
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
     {% include blogs.html %}
-<<<<<<< HEAD
-    
-    {% include footer.html %}
-=======
 
     {% include footer.html %}
 
->>>>>>> b385d969b44c690af38299343f4caf2e58e64abb
-=======
->>>>>>> parent of 23842ec (resolved merge conflicts)
-=======
->>>>>>> parent of 23842ec (resolved merge conflicts)
+    {% include blogs.html %}
+
+    {% include footer.html %}
+
+
 </body>
 <script src="./assets/script/theme.js"></script>
 <script>
@@ -42,7 +40,6 @@
         $('[data-toggle="tooltip"]').tooltip()
     });
 
-<<<<<<< HEAD
     let preloader = document.getElementById("preloader");
     window.addEventListener("load", () => {
       preloader.style.opacity = 0;
@@ -50,6 +47,4 @@
     });
 </script>
 
-=======
->>>>>>> parent of 23842ec (resolved merge conflicts)
 </html>

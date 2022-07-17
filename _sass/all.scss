@@ -4,21 +4,11 @@
 @import "theme";
 @import "profile";
 @import "page";
-<<<<<<< HEAD
-<<<<<<< HEAD
 @import "footer";
-<<<<<<< HEAD
 @import 'blog';
 @import 'blog-list';
-=======
 @import "blog";
 @import "blog-list";
->>>>>>> b385d969b44c690af38299343f4caf2e58e64abb
-=======
->>>>>>> parent of 23842ec (resolved merge conflicts)
-=======
->>>>>>> parent of 23842ec (resolved merge conflicts)
-
 
 html {
   scroll-behavior: smooth;
@@ -53,7 +43,7 @@ body {
 }
 h2 {
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 51px;
   font-weight: 700;
   text-align: center;
 }
@@ -69,23 +59,17 @@ h2 {
   font-size: 1.2em;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-.card:hover{
-=======
+
 .card:hover {
->>>>>>> b385d969b44c690af38299343f4caf2e58e64abb
   background-color: #cacbcc82;
   transition: 1s;
 }
 
-=======
->>>>>>> parent of 23842ec (resolved merge conflicts)
-=======
->>>>>>> parent of 23842ec (resolved merge conflicts)
+
+
 a {
   color: black;
+  padding: 0.2em;
 }
 
 .info {
@@ -184,11 +168,7 @@ $avatar-size: 20px;
   color: rgb(255, 255, 255);
   font-weight: 500;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-<<<<<<< HEAD
-=======
 #preloader {
   display: flex;
   flex-direction: column;
@@ -221,8 +201,4 @@ $avatar-size: 20px;
     transform: scale(0);
   }
 }
->>>>>>> b385d969b44c690af38299343f4caf2e58e64abb
-=======
->>>>>>> parent of 23842ec (resolved merge conflicts)
-=======
->>>>>>> parent of 23842ec (resolved merge conflicts)
+
