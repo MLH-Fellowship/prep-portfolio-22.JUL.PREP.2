@@ -1,5 +1,6 @@
 - name: Sahiba Khan
-  img: assets/img/sahiba.png
+  img: sahiba.png
+  image: sahiba.jpg
   birth_date: 11 July 
   location: Agra, India
   school: G L Bajaj
@@ -12,13 +13,13 @@
       github: https://github.com/sahibardj
       linkedin: https://www.linkedin.com/in/sahiba-khan-rdj/
   coordinates:
-<<<<<<< HEAD
     lat: 27
     lng: 78
   page_name: Sahiba
 
 - name: Shivam Jha
   img: shivam.jpg
+  image: shivam.jpg
   birth_date: February 28th, 2001
   location: Bhagalpur, Bihar, India
   school: National Institute of Technology Patna
@@ -30,57 +31,18 @@
     twitter: https://twitter.com/ShivamJ85823969
     github: https://github.com/jhashivam-2001
     linkedin: https://www.linkedin.com/in/shivam-jha-78421592/
-=======
-      lat: 27
-      lng: 78
-
-- name: Amanda
-  img: amanda.jpg
-  location: New York City, USA
-
-- name: Aaron
-  img: aaron.jpg
-  location: London, UK
-
-- name: Swift
-  img: swift.jpg
-  location: New York City, USA
-
-- name: Arpit Bhalla
-  img: mlh.jpg
-  username: arpitBhalla
-  location: New York City, USA
-  url: https://github.com/arpitbhalla
-  social:
-    twitter: arpit
-    github: arpit
-    linkedin: arpit
-  
-
-- name: Akhilesh
-  username: AkhileshManda
-  img: AkhileshManda.jpg
-  location: Bengaluru, IN
-  url: https://github.com/AkhileshManda
-  social:
-      twitter: https://twitter.com/Akhiles63114004
-      github: https://github.com/AkhileshManda
-      linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
+  coordinates:
+    lat: 27
+    lng: 78
+  page_name: Shivam
   
 - name: Kaushal
   username: kaushal
-  img: KaushalJoshi.png
-  location: Mumbai, India
-  url: https://kaushaljoshi.vercel.app/
-  social:
-      twitter: https://twitter.com/clumsy_coder
-      github: https://github.com/joshi-kaushal
-      linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
-
-  image: kaushal.png
+  img: KaushalJoshi.jpg
+  image: KaushalJoshi.jpg
   user: clumsycoder
   birth_date: May 31st, 2002
-  city: Mumbai
+  location: Mumbai
   school: Mumbai University
   tech_skills: Next.js, Tailwind, MongoDB
   hobbies: Films, journaling and notetaking
@@ -88,16 +50,16 @@
   linkedin: https://www.linkedin.com/in/7JKaushal
   twitter: https://twitter.com/clumsy_coder
   bio: Kaushal is a computer science undergrad from Mumbai, India. He loves talking about computers, films and JavaScript. His life revolves around Stanley Kubrick and his filmography, advocating for Kurzgesagt amongst his friends and exploring new things.
->>>>>>> 60978847bcbfb843de373b70980fc44bfaf486fc
   coordinates:
     lat: 25
     lng: 87
-  page_name: Shivam
+  page_name: Kaushal
 
 - name: Reeju Bhattacharya
   image: reeju.jpg
   birth_date: May 27, 2002
   city: Howrah
+  location: Howrah
   school: IIEST Shibpur
   tech_skills: Java, Android(Kotlin)
   hobbies: Reading, Watching Movies, Procrastinating 
@@ -108,22 +70,19 @@
   coordinates:
     lat: 22.577230
     long: 88.317790
-<<<<<<< HEAD
   page_name: Reeju
 
-=======
     
->>>>>>> 60978847bcbfb843de373b70980fc44bfaf486fc
 - name: Arunima Chaudhuri
   image: Arunima.jpg
   birth_date: May 30th, 2001
   city: Kolkata
+  location: Kolkata
   school: Government College of Engineering and Ceramic Technology
   tech_skills: Java, C, Web development
   hobbies: Dance, painting, travelling
   github: https://github.com/tinniaru3005
   linkedin: https://www.linkedin.com/in/arunima-chaudhuri-95217b194/
-<<<<<<< HEAD
   twitter: N/A
   bio: I am a tech enthusiast. I love learning and exploring new things. I am currently a mentor at Open Source Hach and an MLH Fellow (Prep). I am a LiFT Scholarship Recipient. I love being a part of various communities and interacting with like-minded people.
   coordinates:
@@ -132,7 +91,7 @@
   page_name: Arunima
 
 - name: Arpit Bhalla
-  img: arpit.jpg
+  image: arpit.jpg
   username: arpitBhalla
   location: Kuruksehtra, India
   url: https://arpitbhalla.github.io/
@@ -144,12 +103,12 @@
   github: https://github.com/arpitbhalla
   linkedin: https://www.linkedin.com/in/arpitbhalla
   bio: An aspiring Engineer interested in contributing to the world through Open Source Softwares. Currently co-maintaining most popular React Native library for UI, React Native Elements.
-=======
   twitter: 
   bio: I am a tech enthusiast. I love learning and exploring new things. I am currently a mentor at Open Source Hach and an MLH Fellow (Prep). I am a LiFT Scholarship Recipient. I love being a part of various communities and interacting with like-minded people. 
   coordinates:
      lat : 22
      lng: 88
+  page_name: Arpit
 
 
 
@@ -157,6 +116,7 @@
   image: shofiya.jpg
   birth_date: May 27th, 2003
   city: Vadodara
+  location: Vadodra
   school: Sardar Vallabbhai Patel Institute of Technology
   tech_skills: Full Stack Developer
   hobbies: Watching Movies
@@ -167,11 +127,13 @@
   coordinates:
      lat : 22.3072
      lng: 73.1812
+  page_name: Shofiya
 
 - name: Krisha Adeshara
   image: krisha.jpg
   birth_date: September 2nd, 2002
   city: Vadodara, India
+  location: Vadodara, India
   school: DDU
   tech_skills: JavaScript, C++
   hobbies: Reading, Puzzles, Thrillers
@@ -179,16 +141,16 @@
   linkedin: https://www.linkedin.com/in/krishaadeshara/
   twitter: https://twitter.com/AdesharaKrisha
   bio: Hey there! It's Krisha, a final year student pursuing IT Engineering. Krisha is a striving full-stack developer and keenly interested in learning about new things to expand her knowledge base. 
->>>>>>> 60978847bcbfb843de373b70980fc44bfaf486fc
   coordinates:
      lat: 29.9430339
      lng: 76.8151131
-  page_name: Arpit
+  page_name: Krisha
 
 - name: Hetvi Soni
   image: Hetvi.jpg
   birth_date: May 18th, 2002
   city: Valsad
+  location: Valsad
   school: Indian Institute of Information Technology, Vadodara
   tech_skills: Java, Flutter
   hobbies: Painting, travelling
@@ -204,7 +166,7 @@
 
 - name: Akhilesh
   username: AkhileshManda
-  img: AkhileshManda.jpg
+  image: AkhileshManda.jpg
   location: Bengaluru, IN
   url: https://github.com/AkhileshManda
   social:
@@ -213,41 +175,11 @@
     linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
   page_name: Akhilesh
 
-- name: Kaushal
-  username: kaushal
-  img: KaushalJoshi.jpg
-  location: Mumbai, India
-  url: https://kaushaljoshi.vercel.app/
-  social:
-    twitter: https://twitter.com/clumsy_coder
-    github: https://github.com/joshi-kaushal
-    linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
-  page_name: Kaushal
-
-- name: Will
-  img: logo.jpg
-  location: London, UK
-  page_name: will
-
-- name: Amanda
-  img: amanda.jpg
-  location: New York City, USA
-  page_name: Amanda
-
-- name: Aaron
-  img: aaron.jpg
-  location: London, UK
-
-- name: Swift
-  img: swift.jpg
-  location: New York City, USA
-
-
-
 - name: Ishita Kapoor
   image: ishita.jpg
   birth_date: June 26th, 2001
   city: Ghaziabad, Uttar Pradesh, India
+  location: Ghaziabad, Uttar Pradesh
   school: AKGEC, Ghaziabad
   tech_skills: Web Development, Python, C++, App Development
   hobbies: Dancing, Painting, Enjoying the beauty of nature, Reading Books, Having a good chit-chat, Travelling
@@ -257,5 +189,42 @@
   bio: Hola amigos! I'm Ishita, a Junior year student pursuing Computer Science and Engineering at AKGEC, Ghaziabad. Ishita is a creative web developer and app developer. She is keenly interested in entrepreneurship and innovative projects which helps her to expand her knowledge base. 
   coordinates:
     lat: 28.677
-    lng: 77.502      
+    lng: 77.502
+  page_name: Ishita  
+
+- name: Tiffany Pan
+  image: tiffany.jpg
+  location: New York
+  school: Cornell
+  github: https://github.com/tiffany-pann
+  linkedin: https://www.linkedin.com/in/tiffany-pan-/
+  twitter: N/A
+  page_name: Tiffany
+
+- name: Sai Pravallika Myneni
+  image: pravallika.jpg
+  location:
+  city: N/A
+  github: https://github.com/Pravallika-Myneni
+  linkedin: https://www.linkedin.com/in/pravallika-myneni/
+  twitter: N/A
+  page_name: Pravallika
+
+- name: Abdulwasiu Apalowo
+  image: abdul.jpg
+  location: Nigeria
+  github: https://github.com/mrbazzan
+  linkedin: https://www.linkedin.com/in/abdulwasiu-apalowo
+  twitter: N/A
+  page_name: Abdulwaisu
+
+- name: Ruchita Gosavi
+  image: ruchita.jpg
+  location: Nasik, Maharashtra
+  github: https://github.com/Ruchita1010
+  linkedin: https://www.linkedin.com/in/ruchita-gosavi
+  twitter: N/A
+  page_name: Ruchita
+
+    
 
