@@ -195,6 +195,27 @@ $avatar-size: 20px;
   transition: all 2s ease-in-out;
 }
 
+#to-top-button {
+  padding: 0.75rem;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 20px;
+  background-color: #133667;
+  border: 1px solid white;
+  color: white;
+  border-radius: 15px;
+  z-index: 1500;
+  transition: all 250ms ease-in-out;
+
+  &:hover,
+  &:focus {
+    border-radius: 8px;
+  background: #133667;
+  transition: all 2s ease-in-out;
+  }
+}
+
 #preloader img,
 #preloader h2 {
   animation: preloader 4s normal;

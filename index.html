@@ -9,6 +9,7 @@
       <img src="/assets/img/jagurar.png" alt="Preloader" />
       <h2>Javascript Jaguars</h2>
     </div>
+    <button id="to-top-button">&#8593;</button>
     
     {% include navbar.html %}
 
@@ -39,11 +40,25 @@
         $('[data-toggle="tooltip"]').tooltip()
     });
 
+    // Preloading animation
     let preloader = document.getElementById("preloader");
     window.addEventListener("load", () => {
       preloader.style.opacity = 0;
       preloader.style.pointerEvents = "none";
     });
-</script>
 
+    // Scroll to Top Button
+    let toTopButton = document.getElementById("to-top-button");
+    window.onscroll = () => {
+      toTopButton.style.display =
+        document.body.scrollTop > 200 ||
+        document.documentElement.scrollTop > 200
+          ? "block"
+          : "none";
+    };
+    toTopButton.onclick = () => {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    };
+  </script>
 </html>
