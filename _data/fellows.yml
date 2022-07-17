@@ -58,6 +58,21 @@
       github: https://github.com/joshi-kaushal
       linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
 
+  image: kaushal.png
+  user: clumsycoder
+  birth_date: May 31st, 2002
+  city: Mumbai
+  school: Mumbai University
+  tech_skills: Next.js, Tailwind, MongoDB
+  hobbies: Films, journaling and notetaking
+  github: https://github.com/joshi-kaushal
+  linkedin: https://www.linkedin.com/in/7JKaushal
+  twitter: https://twitter.com/clumsy_coder
+  bio: Kaushal is a computer science undergrad from Mumbai, India. He loves talking about computers, films and JavaScript. His life revolves around Stanley Kubrick and his filmography, advocating for Kurzgesagt amongst his friends and exploring new things.
+  coordinates:
+    lat: 19.07283
+    lng: 72.88261
+ 
 - name: Reeju Bhattacharya
   image: reeju.jpg
   birth_date: May 27, 2002
