@@ -16,6 +16,113 @@
     lng: 78
   page_name: Sahiba
 
+- name: Shivam Jha
+  img: shivam.jpg
+  birth_date: February 28th, 2001
+  location: Bhagalpur, Bihar, India
+  school: National Institute of Technology Patna
+  tech_skills: Tensorflow, Next.js, Java, C++, Solidity
+  hobbies: Video games, Mythological readings
+  bio: Hey there ! This is Shivam Jha, an aspiring software engineer aspiring to impact humankind for good.
+  url: https://github.com/jhashivam-2001
+  social:
+    twitter: https://twitter.com/ShivamJ85823969
+    github: https://github.com/jhashivam-2001
+    linkedin: https://www.linkedin.com/in/shivam-jha-78421592/
+  coordinates:
+    lat: 25
+    lng: 87
+  page_name: Shivam
+
+- name: Reeju Bhattacharya
+  image: reeju.jpg
+  birth_date: May 27, 2002
+  city: Howrah
+  school: IIEST Shibpur
+  tech_skills: Java, Android(Kotlin)
+  hobbies: Reading, Watching Movies, Procrastinating
+  github: https://github.com/reejuBhattacharya
+  linkedin: https://www.linkedin.com/in/reejubhattacharya/
+  twitter:
+  bio: Hi, I am Reeju Bhattacharya. I am currently starting my junior year at IIEST. I love learning about new technologies and am eager to expand my skills to solve more real-world problems in the future.
+  coordinates:
+    lat: 22.577230
+    long: 88.317790
+  page_name: Reeju
+
+- name: Arunima Chaudhuri
+  image: Arunima.jpg
+  birth_date: May 30th, 2001
+  city: Kolkata
+  school: Government College of Engineering and Ceramic Technology
+  tech_skills: Java, C, Web development
+  hobbies: Dance, painting, travelling
+  github: https://github.com/tinniaru3005
+  linkedin: https://www.linkedin.com/in/arunima-chaudhuri-95217b194/
+  twitter: N/A
+  bio: I am a tech enthusiast. I love learning and exploring new things. I am currently a mentor at Open Source Hach and an MLH Fellow (Prep). I am a LiFT Scholarship Recipient. I love being a part of various communities and interacting with like-minded people.
+  coordinates:
+    lat: 22
+    lng: 88
+  page_name: Arunima
+
+- name: Arpit Bhalla
+  img: arpit.jpg
+  username: arpitBhalla
+  location: Kuruksehtra, India
+  url: https://arpitbhalla.github.io/
+  birth_date: Sep 2001
+  city: Kuruksehtra
+  school: NIT Kuruksehtra
+  tech_skills: Typescript, GoLang, Rust
+  twitter: https://twitter.com/arpitbhalla_
+  github: https://github.com/arpitbhalla
+  linkedin: https://www.linkedin.com/in/arpitbhalla
+  bio: An aspiring Engineer interested in contributing to the world through Open Source Softwares. Currently co-maintaining most popular React Native library for UI, React Native Elements.
+  coordinates:
+     lat: 29.9430339
+     lng: 76.8151131
+  page_name: Arpit
+
+- name: Hetvi Soni
+  image: Hetvi.jpg
+  birth_date: May 18th, 2002
+  city: Valsad
+  school: Indian Institute of Information Technology, Vadodara
+  tech_skills: Java, Flutter
+  hobbies: Painting, travelling
+  github: https://github.com/HetviSoni
+  linkedin: https://www.linkedin.com/in/hetvi-soni-46a99b1b6/
+  twitter: 
+  bio: Hi, I am Hetvi Soni. I am currently starting my junior year at IIIT Vadodara.I love learning and exploring new things. 
+  coordinates:
+     lat : 20.5925 
+     lng: 72.9362
+  page_name: Hetvi
+
+
+- name: Akhilesh
+  username: AkhileshManda
+  img: AkhileshManda.jpg
+  location: Bengaluru, IN
+  url: https://github.com/AkhileshManda
+  social:
+    twitter: https://twitter.com/Akhiles63114004
+    github: https://github.com/AkhileshManda
+    linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
+  page_name: Akhilesh
+
+- name: Kaushal
+  username: kaushal
+  img: KaushalJoshi.jpg
+  location: Mumbai, India
+  url: https://kaushaljoshi.vercel.app/
+  social:
+    twitter: https://twitter.com/clumsy_coder
+    github: https://github.com/joshi-kaushal
+    linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
+  page_name: Kaushal
+
 - name: Will
   img: logo.jpg
   location: London, UK
@@ -34,91 +141,5 @@
   img: swift.jpg
   location: New York City, USA
 
-- name: Akhilesh
-  username: AkhileshManda
-  img: AkhileshManda.jpg
-  location: Bengaluru, IN
-  url: https://github.com/AkhileshManda
-  social:
-    twitter: https://twitter.com/Akhiles63114004
-    github: https://github.com/AkhileshManda
-    linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
 
-- name: Kaushal
-  image: kaushal.png
-  user: clumsycoder
-  birth_date: May 31st, 2002
-  city: Mumbai
-  school: Mumbai University
-  tech_skills: Next.js, Tailwind, MongoDB
-  hobbies: Films, journaling and notetaking
-  github: https://github.com/joshi-kaushal
-  linkedin: https://www.linkedin.com/in/7JKaushal
-  twitter: https://twitter.com/clumsy_coder
-  bio: Kaushal is a computer science undergrad from Mumbai, India. He loves talking about computers, films and JavaScript. His life revolves around Stanley Kubrick and his filmography, advocating for Kurzgesagt amongst his friends and exploring new things.
-  coordinates:
-    lat: 19.07283
-    lng: 72.88261
- 
-- name: Reeju Bhattacharya
-  image: reeju.jpg
-  birth_date: May 27, 2002
-  city: Howrah
-  school: IIEST Shibpur
-  tech_skills: Java, Android(Kotlin)
-  hobbies: Reading, Watching Movies, Procrastinating
-  github: https://github.com/reejuBhattacharya
-  linkedin: https://www.linkedin.com/in/reejubhattacharya/
-  twitter:
-  bio: Hi, I am Reeju Bhattacharya. I am currently starting my junior year at IIEST. I love learning about new technologies and am eager to expand my skills to solve more real-world problems in the future.
-  coordinates:
-    lat: 22.577230
-    long: 88.317790
-
-- name: Arunima Chaudhuri
-  image: Arunima.jpg
-  birth_date: May 30th, 2001
-  city: Kolkata
-  school: Government College of Engineering and Ceramic Technology
-  tech_skills: Java, C, Web development
-  hobbies: Dance, painting, travelling
-  github: https://github.com/tinniaru3005
-  linkedin: https://www.linkedin.com/in/arunima-chaudhuri-95217b194/
-  twitter:
-  bio: I am a tech enthusiast. I love learning and exploring new things. I am currently a mentor at Open Source Hach and an MLH Fellow (Prep). I am a LiFT Scholarship Recipient. I love being a part of various communities and interacting with like-minded people.
-  coordinates:
-    lat: 22
-    lng: 88
-
-- name: Arpit Bhalla
-  img: arpit.jpeg
-  username: arpitBhalla
-  location: Kuruksehtra, India
-  url: https://arpitbhalla.github.io/
-  birth_date: Sep 2001
-  city: Kuruksehtra
-  school: NIT Kuruksehtra
-  tech_skills: Typescript, GoLang, Rust
-  twitter: https://twitter.com/arpitbhalla_
-  github: https://github.com/arpitbhalla
-  linkedin: https://www.linkedin.com/in/arpitbhalla
-  bio: An aspiring Engineer interested in contributing to the world through Open Source Softwares. Currently co-maintaining most popular React Native library for UI, React Native Elements.
-  coordinates:
-     lat: 29.9430339
-     lng: 76.8151131
-     
-- name: Hetvi Soni
-  image: Hetvi.jpg
-  birth_date: May 18th, 2002
-  city: Valsad
-  school: Indian Institute of Information Technology, Vadodara
-  tech_skills: Java, Flutter
-  hobbies: Painting, travelling
-  github: https://github.com/HetviSoni
-  linkedin: https://www.linkedin.com/in/hetvi-soni-46a99b1b6/
-  twitter: 
-  bio: Hi, I am Hetvi Soni. I am currently starting my junior year at IIIT Vadodara.I love learning and exploring new things. 
-  coordinates:
-     lat : 20.5925 
-     lng: 72.9362
 
