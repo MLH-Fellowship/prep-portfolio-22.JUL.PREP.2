@@ -1,5 +1,10 @@
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.css" />
+  <style>
+    a {
+      color: black;
+    }
+  </style>
 </head>
 <section id="MeetThePod">
   <h2>Meet the Pod</h2>
@@ -11,9 +16,9 @@
           <div class="content">
             <div class="front">
               <div id="img-container">
-                <img class="profile-image" width="100%" src="assets/img/{{ item.image }}">
+                <a href="/projects/user/{{item.page_name}}" style="color: black;"><img class="profile-image" width="100%" src="assets/img/{{ item.image }}"></a>
               </div>
-              <h2 class="fellow-name"><a href="/projects/user/{{item.page_name}}" style="color: black;"> {{ item.name }}</a></h2>
+              <h2 class="fellow-name">{{ item.name }}</h2>
             </div>
             <div class="back from-left">
               <p> {{ item.location}}</p>
