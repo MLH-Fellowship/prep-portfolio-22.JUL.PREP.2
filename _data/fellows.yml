@@ -1,6 +1,6 @@
 - name: Sahiba Khan
   img: assets/img/sahiba.png
-  birth_date: 11 July
+  birth_date: 11 July 
   location: Agra, India
   school: G L Bajaj
   tech_skills: Go, C++, SQL
@@ -8,10 +8,11 @@
   bio: Heyya, I'm Sahiba a software engineer driven by solving real world problems and making a tangible change.
   url: https://github.com/sahibardj
   social:
-    twitter: https://twitter.com/
-    github: https://github.com/sahibardj
-    linkedin: https://www.linkedin.com/in/sahiba-khan-rdj/
+      twitter: https://twitter.com/
+      github: https://github.com/sahibardj
+      linkedin: https://www.linkedin.com/in/sahiba-khan-rdj/
   coordinates:
+<<<<<<< HEAD
     lat: 27
     lng: 78
   page_name: Sahiba
@@ -29,6 +30,65 @@
     twitter: https://twitter.com/ShivamJ85823969
     github: https://github.com/jhashivam-2001
     linkedin: https://www.linkedin.com/in/shivam-jha-78421592/
+=======
+      lat: 27
+      lng: 78
+
+- name: Amanda
+  img: amanda.jpg
+  location: New York City, USA
+
+- name: Aaron
+  img: aaron.jpg
+  location: London, UK
+
+- name: Swift
+  img: swift.jpg
+  location: New York City, USA
+
+- name: Arpit Bhalla
+  img: mlh.jpg
+  username: arpitBhalla
+  location: New York City, USA
+  url: https://github.com/arpitbhalla
+  social:
+    twitter: arpit
+    github: arpit
+    linkedin: arpit
+  
+
+- name: Akhilesh
+  username: AkhileshManda
+  img: AkhileshManda.jpg
+  location: Bengaluru, IN
+  url: https://github.com/AkhileshManda
+  social:
+      twitter: https://twitter.com/Akhiles63114004
+      github: https://github.com/AkhileshManda
+      linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
+  
+- name: Kaushal
+  username: kaushal
+  img: KaushalJoshi.png
+  location: Mumbai, India
+  url: https://kaushaljoshi.vercel.app/
+  social:
+      twitter: https://twitter.com/clumsy_coder
+      github: https://github.com/joshi-kaushal
+      linkedin: https://www.linkedin.com/in/akhilesh-manda-7a9b661b8/
+
+  image: kaushal.png
+  user: clumsycoder
+  birth_date: May 31st, 2002
+  city: Mumbai
+  school: Mumbai University
+  tech_skills: Next.js, Tailwind, MongoDB
+  hobbies: Films, journaling and notetaking
+  github: https://github.com/joshi-kaushal
+  linkedin: https://www.linkedin.com/in/7JKaushal
+  twitter: https://twitter.com/clumsy_coder
+  bio: Kaushal is a computer science undergrad from Mumbai, India. He loves talking about computers, films and JavaScript. His life revolves around Stanley Kubrick and his filmography, advocating for Kurzgesagt amongst his friends and exploring new things.
+>>>>>>> 60978847bcbfb843de373b70980fc44bfaf486fc
   coordinates:
     lat: 25
     lng: 87
@@ -40,16 +100,20 @@
   city: Howrah
   school: IIEST Shibpur
   tech_skills: Java, Android(Kotlin)
-  hobbies: Reading, Watching Movies, Procrastinating
+  hobbies: Reading, Watching Movies, Procrastinating 
   github: https://github.com/reejuBhattacharya
   linkedin: https://www.linkedin.com/in/reejubhattacharya/
-  twitter:
+  twitter: 
   bio: Hi, I am Reeju Bhattacharya. I am currently starting my junior year at IIEST. I love learning about new technologies and am eager to expand my skills to solve more real-world problems in the future.
   coordinates:
     lat: 22.577230
     long: 88.317790
+<<<<<<< HEAD
   page_name: Reeju
 
+=======
+    
+>>>>>>> 60978847bcbfb843de373b70980fc44bfaf486fc
 - name: Arunima Chaudhuri
   image: Arunima.jpg
   birth_date: May 30th, 2001
@@ -59,6 +123,7 @@
   hobbies: Dance, painting, travelling
   github: https://github.com/tinniaru3005
   linkedin: https://www.linkedin.com/in/arunima-chaudhuri-95217b194/
+<<<<<<< HEAD
   twitter: N/A
   bio: I am a tech enthusiast. I love learning and exploring new things. I am currently a mentor at Open Source Hach and an MLH Fellow (Prep). I am a LiFT Scholarship Recipient. I love being a part of various communities and interacting with like-minded people.
   coordinates:
@@ -79,6 +144,42 @@
   github: https://github.com/arpitbhalla
   linkedin: https://www.linkedin.com/in/arpitbhalla
   bio: An aspiring Engineer interested in contributing to the world through Open Source Softwares. Currently co-maintaining most popular React Native library for UI, React Native Elements.
+=======
+  twitter: 
+  bio: I am a tech enthusiast. I love learning and exploring new things. I am currently a mentor at Open Source Hach and an MLH Fellow (Prep). I am a LiFT Scholarship Recipient. I love being a part of various communities and interacting with like-minded people. 
+  coordinates:
+     lat : 22
+     lng: 88
+
+
+
+- name: Shofiya Bootwala
+  image: shofiya.jpg
+  birth_date: May 27th, 2003
+  city: Vadodara
+  school: Sardar Vallabbhai Patel Institute of Technology
+  tech_skills: Full Stack Developer
+  hobbies: Watching Movies
+  github: https://github.com/Shofiya2003
+  linkedin: https://www.linkedin.com/in/shofiya-bootwala-0a1130220/
+  twitter: 
+  bio: I am a inquisitive Backend Developer, with a knack to learn new technologies and solve real world problems
+  coordinates:
+     lat : 22.3072
+     lng: 73.1812
+
+- name: Krisha Adeshara
+  image: krisha.jpg
+  birth_date: September 2nd, 2002
+  city: Vadodara, India
+  school: DDU
+  tech_skills: JavaScript, C++
+  hobbies: Reading, Puzzles, Thrillers
+  github: https://github.com/Krishi-02
+  linkedin: https://www.linkedin.com/in/krishaadeshara/
+  twitter: https://twitter.com/AdesharaKrisha
+  bio: Hey there! It's Krisha, a final year student pursuing IT Engineering. Krisha is a striving full-stack developer and keenly interested in learning about new things to expand her knowledge base. 
+>>>>>>> 60978847bcbfb843de373b70980fc44bfaf486fc
   coordinates:
      lat: 29.9430339
      lng: 76.8151131
@@ -142,4 +243,19 @@
   location: New York City, USA
 
 
+
+- name: Ishita Kapoor
+  image: ishita.jpg
+  birth_date: June 26th, 2001
+  city: Ghaziabad, Uttar Pradesh, India
+  school: AKGEC, Ghaziabad
+  tech_skills: Web Development, Python, C++, App Development
+  hobbies: Dancing, Painting, Enjoying the beauty of nature, Reading Books, Having a good chit-chat, Travelling
+  github: https://github.com/ishitakapoor26
+  linkedin: https://www.linkedin.com/in/ishita-kapoor-789141184/
+  twitter: 
+  bio: Hola amigos! I'm Ishita, a Junior year student pursuing Computer Science and Engineering at AKGEC, Ghaziabad. Ishita is a creative web developer and app developer. She is keenly interested in entrepreneurship and innovative projects which helps her to expand her knowledge base. 
+  coordinates:
+    lat: 28.677
+    lng: 77.502      
 
