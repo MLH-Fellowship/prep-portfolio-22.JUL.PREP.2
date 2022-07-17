@@ -1,0 +1,87 @@
+---
+layout: page
+---
+<link lang='sass' rel="stylesheet" href="/assets/css/user.css">
+<div class="profile-page">
+ <!-- <div class="page-header header-filter" data-parallax="true" style="background-image:url('/assets/img/mlh.jpg');"></div> -->
+    <div class="main main-raised">
+		<div class="profile-content">
+            <div class="container">
+                <div class="row">
+	                <div class="col-md-6 ml-auto mr-auto">
+        	           <div class="profile">
+	                        <div class="avatar">
+	                            <img src="/assets/img/{{page.image}}" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+	                        </div>
+	                    </div>
+    	            </div>
+                </div>
+                <div class="description text-center">
+                    <p style="font-size: large;">{{ page.bio }}</p>
+                </div>
+				<div class="row">
+					<div class="col-md-6 ml-auto mr-auto">
+                        <div class="profile-tabs">
+                          <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#studio" role="tab" data-toggle="tab">
+                                  <i class="material-icons">camera</i>
+                                  About
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#works" role="tab" data-toggle="tab">
+                                  <i class="material-icons">language</i>
+                                    Socials
+                                </a>
+                            </li>
+                          </ul>
+                        </div>
+    	    	    </div>
+               </div>
+               <div class="tab-content tab-space">
+                <div class="tab-pane active text-center gallery" id="studio">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">About Me</h4>
+                      <div class="info card-text">
+                        <p class="title"> {{ page.title }}</p>
+                        <p class="location">Schooling - {{ page.school }}</p>
+                        <p>Birthday - {{ page.birth_date }}</p>
+                        <p>Hometown - {{ page.city }}</p>
+                        <p>Tech Skills - {{ page.tech_skills }}</p>
+                        <p>Hobbies - {{ page.hobbies }}</p>
+                        <p>Languages - {{ page.languages }}</p>
+                      </div>
+                        <div>
+                          {{ content }}
+                        </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="tab-pane text-center gallery" id="works">
+                    <div class="card" style="width: 20rem; margin:auto">
+                      <div class="card-body">
+                        <h4 class="card-title">{{page.title}}</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Connect With Me</h6>
+                        <div class = "row d-flex justify-content-center">
+                          <div class="name card-text">
+                              <a href="{{page.linkedin}}" class="btn btn-just-icon btn-link btn-dribbble"><i class="fa fa-linkedin"></i></a>
+                              <a href="{{page.twitter}}" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
+                              <a href="{{page.github}}" class="btn btn-just-icon btn-link btn-pinterest"><i class="fa fa-github"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                 </div>
+        </div>
+    </div>
+    </div>
+ </div>
+</div>  
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+<script src="/assets/script/userpage.js"></script>
