@@ -71,6 +71,21 @@
     lat: 19.0760
     lng: 72.8777
 
+  image: kaushal.png
+  user: clumsycoder
+  birth_date: May 31st, 2002
+  city: Mumbai
+  school: Mumbai University
+  tech_skills: Next.js, Tailwind, MongoDB
+  hobbies: Films, journaling and notetaking
+  github: https://github.com/joshi-kaushal
+  linkedin: https://www.linkedin.com/in/7JKaushal
+  twitter: https://twitter.com/clumsy_coder
+  bio: Kaushal is a computer science undergrad from Mumbai, India. He loves talking about computers, films and JavaScript. His life revolves around Stanley Kubrick and his filmography, advocating for Kurzgesagt amongst his friends and exploring new things.
+  coordinates:
+    lat: 19.07283
+    lng: 72.88261
+ 
 - name: Reeju Bhattacharya
   image: reeju.jpg
   birth_date: May 27, 2002
@@ -100,3 +115,66 @@
   coordinates:
      lat : 22
      lng: 88
+
+
+
+- name: Shofiya Bootwala
+  image: shofiya.jpg
+  birth_date: May 27th, 2003
+  city: Vadodara
+  school: Sardar Vallabbhai Patel Institute of Technology
+  tech_skills: Full Stack Developer
+  hobbies: Watching Movies
+  github: https://github.com/Shofiya2003
+  linkedin: https://www.linkedin.com/in/shofiya-bootwala-0a1130220/
+  twitter: 
+  bio: I am a inquisitive Backend Developer, with a knack to learn new technologies and solve real world problems
+  coordinates:
+     lat : 22.3072
+     lng: 73.1812
+
+- name: Krisha Adeshara
+  image: krisha.jpg
+  birth_date: September 2nd, 2002
+  city: Vadodara, India
+  school: DDU
+  tech_skills: JavaScript, C++
+  hobbies: Reading, Puzzles, Thrillers
+  github: https://github.com/Krishi-02
+  linkedin: https://www.linkedin.com/in/krishaadeshara/
+  twitter: https://twitter.com/AdesharaKrisha
+  bio: Hey there! It's Krisha, a final year student pursuing IT Engineering. Krisha is a striving full-stack developer and keenly interested in learning about new things to expand her knowledge base. 
+  coordinates:
+     lat: 29.9430339
+     lng: 76.8151131
+     
+- name: Hetvi Soni
+  image: Hetvi.jpg
+  birth_date: May 18th, 2002
+  city: Valsad
+  school: Indian Institute of Information Technology, Vadodara
+  tech_skills: Java, Flutter
+  hobbies: Painting, travelling
+  github: https://github.com/HetviSoni
+  linkedin: https://www.linkedin.com/in/hetvi-soni-46a99b1b6/
+  twitter: 
+  bio: Hi, I am Hetvi Soni. I am currently starting my junior year at IIIT Vadodara.I love learning and exploring new things. 
+  coordinates:
+     lat : 20.5925 
+     lng: 72.9362
+
+- name: Ishita Kapoor
+  image: ishita.jpg
+  birth_date: June 26th, 2001
+  city: Ghaziabad, Uttar Pradesh, India
+  school: AKGEC, Ghaziabad
+  tech_skills: Web Development, Python, C++, App Development
+  hobbies: Dancing, Painting, Enjoying the beauty of nature, Reading Books, Having a good chit-chat, Travelling
+  github: https://github.com/ishitakapoor26
+  linkedin: https://www.linkedin.com/in/ishita-kapoor-789141184/
+  twitter: 
+  bio: Hola amigos! I'm Ishita, a Junior year student pursuing Computer Science and Engineering at AKGEC, Ghaziabad. Ishita is a creative web developer and app developer. She is keenly interested in entrepreneurship and innovative projects which helps her to expand her knowledge base. 
+  coordinates:
+    lat: 28.677
+    lng: 77.502      
+
