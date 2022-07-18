@@ -1,0 +1,64 @@
+
+
+<div>
+    <h1 class="map-header">Where do our fellows live?🗺️</h1>
+    <div id="map" ></div>    
+</div>
+
+
+<script>
+
+function initMap() {
+    // The location of Uluru
+    const center = { lat: 34.0479, lng: 100.6197 };
+    // The map, centered at Uluru
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 2,
+      center: center,
+    });
+
+    var fellows = {{ site.data.fellows | jsonify }};
+    
+    fellows.forEach(fellow => {
+
+        let icon={
+            url: `/assets/img/${fellow.image}`,
+            size: new google.maps.Size(50, 50),
+            origin: new google.maps.Point(0, 0),
+            anchor: new google.maps.Point(17, 34),
+            scaledSize: new google.maps.Size(30, 30)
+        }
+        console.log(icon);
+        console.log(fellow);
+        if(fellow.coordinates){
+            const marker = new google.maps.Marker({
+            position: new google.maps.LatLng(fellow.coordinates.lat, fellow.coordinates.lng),
+            title: fellow.name,
+            map: map,
+            icon: icon
+            });
+            marker.setMap(map);
+            const contentString=`<div>${fellow.name}<div>`
+        
+                const infowindow = new google.maps.InfoWindow({
+                content: contentString,
+            });
+
+            marker.addListener("click", () => {
+                infowindow.open({
+                anchor: marker,
+                map,
+                shouldFocus: false,
+                });
+            });
+        }
+        
+    });
+}
+    
+  window.initMap = initMap;
+</script>
+<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgJBn9afSN2q20A9BjYRrCviZmKKKNRTQ&callback=initMap&v=weekly"
+      defer
+></script>

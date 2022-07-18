@@ -112,6 +112,28 @@ hr {
     height: 41px;
 }
 
+#map{
+    margin : 0 auto;
+    border: 5px solid #022c67;
+    padding: 50px 0;
+    height: 400px;
+    width: 100%;
+    width: 70%;
+    margin-bottom: 30px;
+
+}
+
+#map a:hover{
+    text-decoration: none; 
+}
+
+.map-header{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
 @media screen and (max-width: 768px) {
     
     .banner {
