@@ -199,6 +199,10 @@
   github: https://github.com/tiffany-pann
   linkedin: https://www.linkedin.com/in/tiffany-pan-/
   twitter: N/A
+  coordinates:
+    lat: 40
+    lng: -74
+
   page_name: Tiffany
 
 - name: Abdulwasiu Apalowo
@@ -207,6 +211,9 @@
   github: https://github.com/mrbazzan
   linkedin: https://www.linkedin.com/in/abdulwasiu-apalowo
   twitter: N/A
+  coordinates:
+    lat: 7
+    lng: 5
   page_name: Abdulwaisu
 
 - name: Ruchita Gosavi
